@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.qsoft.android.components.gallery</groupId>
+    <artifactId>gallery</artifactId>
+    <version>1.1-SNAPSHOT</version>
+    <packaging>apklib</packaging>
+    <name>gallery</name>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <platform.version>4.4.2_r2</platform.version>
+        <android.plugin.version>3.8.3-SNAPSHOT</android.plugin.version>
+        <repo.id>dis-artifactory</repo.id>
+        <repo.url>http://113.190.252.3:1009/artifactory/qsoft-repo-local</repo.url>
+    </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>${repo.id}</id>
+            <name>${repo.id}-releases</name>
+            <url>${repo.url}</url>
+        </repository>
+    </distributionManagement>
+
+    <scm>
+        <url>http://www.qsoftvietnam.com/vn/</url>
+        <connection>scm:[provider]:[provider_spec]</connection>
+        <developerConnection>scm:[provider]:[provider_spec]</developerConnection>
+    </scm>
+
+    <dependencies>
+        <dependency>
+            <groupId>android</groupId>
+            <artifactId>android</artifactId>
+            <version>${platform.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.nostra13.universalimageloader</groupId>
+            <artifactId>universal-image-loader</artifactId>
+            <type>jar</type>
+            <version>1.9.1</version>
+        </dependency>
+        <dependency>
+            <groupId>android.support</groupId>
+            <artifactId>compatibility-v4</artifactId>
+            <version>19.0.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.qsoft.android.components.image-view-gesture</groupId>
+            <artifactId>image-view-gesture</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>${project.artifactId}</finalName>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>com.jayway.maven.plugins.android.generation2</groupId>
+                    <artifactId>android-maven-plugin</artifactId>
+                    <version>${android.plugin.version}</version>
+                    <extensions>true</extensions>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>com.jayway.maven.plugins.android.generation2</groupId>
+                <artifactId>android-maven-plugin</artifactId>
+                <configuration>
+                    <sdk>
+                        <platform>17</platform>
+                    </sdk>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
