@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DISGalleryVersion3.iml" filepath="$PROJECT_DIR$/DISGalleryVersion3.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Example/Example.iml" filepath="$PROJECT_DIR$/../Example/Example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Example/gen-external-apklibs/~apklib-com.qsoft.android.components.gallery_gallery_1.1-SNAPSHOT.iml" filepath="$PROJECT_DIR$/../Example/gen-external-apklibs/~apklib-com.qsoft.android.components.gallery_gallery_1.1-SNAPSHOT.iml" />
     </modules>
   </component>
 </project>

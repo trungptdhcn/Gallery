@@ -23,8 +23,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="DISGalleryVersion3" />
+        <module name="Example" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DISGalleryVersion3" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 

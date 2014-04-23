@@ -6,6 +6,7 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="android" url="file://$PROJECT_DIR$" />
+    <file type="android" url="file://$PROJECT_DIR$/../Example" />
   </component>
   <component name="IdProvider" IDEtalkID="EA67A294CC6F18AEAB37CF8CA6B8B72B" />
   <component name="MavenProjectsManager">
