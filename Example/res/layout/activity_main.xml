@@ -2,7 +2,7 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:orientation="vertical">
-    <com.qsoft.android.components.gallery.DISGalleryComponent
+    <com.qsoft.components.gallery.component.DISGalleryComponent
             android:id="@+id/activity_main_dis_gallery"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>

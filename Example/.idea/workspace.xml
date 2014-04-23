@@ -1,10 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidDesignerProfile">
+    <option name="fullProfile">
+      <profile>
+        <option name="device" value="2.7in QVGA" />
+        <option name="deviceConfiguration" value="Portrait" />
+        <option name="targetHashString" value="android-17" />
+        <option name="theme" value="AppTheme" />
+      </profile>
+    </option>
+    <option name="selection" value="[Full]" />
+  </component>
   <component name="AndroidExternalApklibDependenciesManager">
     <artifacts>
+      <entry key="com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT" value="$MAVEN_REPOSITORY$/com/qsoft/android/components/gallery/gallery-v2/1.0-SNAPSHOT/gallery-v2-1.0-SNAPSHOT.apklib" />
       <entry key="com.qsoft.android.components.gallery_gallery_1.1-SNAPSHOT" value="$MAVEN_REPOSITORY$/com/qsoft/android/components/gallery/gallery/1.1-SNAPSHOT/gallery-1.1-SNAPSHOT.apklib" />
+      <entry key="com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT" value="$MAVEN_REPOSITORY$/com/qsoft/android/components/viewpager/viewpager-indicator/1.0-SNAPSHOT/viewpager-indicator-1.0-SNAPSHOT.apklib" />
     </artifacts>
     <sdk-infos>
+      <entry key="com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT">
+        <value>
+          <resolved-info>
+            <option name="apiLevel" value="17" />
+            <dependencies>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="android" />
+                <option name="groupId" value="android" />
+                <option name="libName" value="Maven: android:android:4.4.2_r2" />
+                <option name="path" value="$MAVEN_REPOSITORY$/android/android/4.4.2_r2/android-4.4.2_r2.jar" />
+                <option name="scope" value="provided" />
+                <option name="type" value="jar" />
+                <option name="version" value="4.4.2_r2" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="universal-image-loader" />
+                <option name="groupId" value="com.nostra13.universalimageloader" />
+                <option name="libName" value="Maven: com.nostra13.universalimageloader:universal-image-loader:1.9.1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/com/nostra13/universalimageloader/universal-image-loader/1.9.1/universal-image-loader-1.9.1.jar" />
+                <option name="scope" value="compile" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.9.1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="compatibility-v4" />
+                <option name="groupId" value="android.support" />
+                <option name="libName" value="Maven: android.support:compatibility-v4:19.0.0" />
+                <option name="path" value="$MAVEN_REPOSITORY$/android/support/compatibility-v4/19.0.0/compatibility-v4-19.0.0.jar" />
+                <option name="scope" value="compile" />
+                <option name="type" value="jar" />
+                <option name="version" value="19.0.0" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="image-view-gesture" />
+                <option name="groupId" value="com.qsoft.android.components.image-view-gesture" />
+                <option name="libName" value="Maven: com.qsoft.android.components.image-view-gesture:image-view-gesture:1.0-SNAPSHOT" />
+                <option name="path" value="$MAVEN_REPOSITORY$/com/qsoft/android/components/image-view-gesture/image-view-gesture/1.0-SNAPSHOT/image-view-gesture-1.0-SNAPSHOT.jar" />
+                <option name="scope" value="compile" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.0-SNAPSHOT" />
+              </MavenDependencyInfo>
+            </dependencies>
+          </resolved-info>
+        </value>
+      </entry>
       <entry key="com.qsoft.android.components.gallery_gallery_1.1-SNAPSHOT">
         <value>
           <resolved-info>
@@ -50,7 +108,48 @@
           </resolved-info>
         </value>
       </entry>
+      <entry key="com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT">
+        <value>
+          <resolved-info>
+            <option name="apiLevel" value="17" />
+            <dependencies>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="android" />
+                <option name="groupId" value="android" />
+                <option name="libName" value="Maven: android:android:4.4.2_r2" />
+                <option name="path" value="$MAVEN_REPOSITORY$/android/android/4.4.2_r2/android-4.4.2_r2.jar" />
+                <option name="scope" value="provided" />
+                <option name="type" value="jar" />
+                <option name="version" value="4.4.2_r2" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="compatibility-v4" />
+                <option name="groupId" value="android.support" />
+                <option name="libName" value="Maven: android.support:compatibility-v4:19.0.0" />
+                <option name="path" value="$MAVEN_REPOSITORY$/android/support/compatibility-v4/19.0.0/compatibility-v4-19.0.0.jar" />
+                <option name="scope" value="compile" />
+                <option name="type" value="jar" />
+                <option name="version" value="19.0.0" />
+              </MavenDependencyInfo>
+            </dependencies>
+          </resolved-info>
+        </value>
+      </entry>
     </sdk-infos>
+  </component>
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState>
+        <option name="device" value="2.7in QVGA" />
+        <option name="dockMode" value="" />
+        <option name="nightMode" value="notnight" />
+        <option name="targetHashString" value="android-17" />
+        <option name="theme" value="AppTheme" />
+      </GlobalState>
+    </option>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" name="Default" comment="" />
@@ -60,15 +159,39 @@
     <file path="$PROJECT_DIR$/res/values/dimens.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398224078018" ignored="false" />
     <file path="$PROJECT_DIR$/res/menu/main.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398224078018" ignored="false" />
     <file path="$PROJECT_DIR$/res/values-v14/styles.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398224078018" ignored="false" />
-    <file path="$PROJECT_DIR$/res/layout/activity_main.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398224078018" ignored="false" />
     <file path="$PROJECT_DIR$/res/values/styles.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398224078018" ignored="false" />
     <file path="$PROJECT_DIR$/res/values/strings.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398224078018" ignored="false" />
     <file path="$PROJECT_DIR$/res/values-v11/styles.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398224078018" ignored="false" />
     <file path="$PROJECT_DIR$/res/values-sw600dp/dimens.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398224078018" ignored="false" />
     <file path="$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery_1.1-SNAPSHOT/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398224329982" ignored="false" />
-    <file path="$PROJECT_DIR$/../DISGalleryVersion3/pom.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398224491671" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/pom.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398246339105" ignored="false" />
     <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/HelloAndroidActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398224491671" ignored="false" />
-    <file path="$PROJECT_DIR$/../DISGalleryVersion3/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398224491671" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398246339105" ignored="false" />
+    <file path="/Dummy.txt" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398246642154" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/.idea/workspace.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398245633870" ignored="false" />
+    <file path="/fragment.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398247735312" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/res/layout/dis_slide_show.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398249770804" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/component/DISGalleryComponent.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398249721820" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398246339105" ignored="false" />
+    <file path="$PROJECT_DIR$/target/generated-sources/r/com/qsoft/components/gallery/example/R.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398252664018" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/adapter/DISSlideShowAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398251555089" ignored="false" />
+    <file path="/DISSlideShowAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398251534535" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/utils/ClassUtils.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398247046222" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/utils/LogUtils.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398247046222" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/utils/ImageUtils.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398247046222" ignored="false" />
+    <file path="/dis_slide_show.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398249757930" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/custom_view/WrapContentHeightViewPager.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398247931219" ignored="false" />
+    <file path="E:/DIS/CommonComponent/Tonghop/Gallery_TrungPT/DISGalleryVersion2/res/layout/dis_gallery.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398248337013" ignored="false" />
+    <file path="/DISGalleryComponent.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398249699692" ignored="false" />
+    <file path="/HelloAndroidActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398251062185" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398251195625" ignored="false" />
+    <file path="E:/DIS/CommonComponent/Tonghop/Gallery_TrungPT/DISGalleryVersion2/res/layout/dis_preview_image_pager_item.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398251956058" ignored="false" />
+    <file path="/dis_preview_image_pager_item.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398251949817" ignored="false" />
+    <file path="/dis_preview_image.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398252121165" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/res/layout/dis_preview_image.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398252123231" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/activity/DISPreviewImageActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398252539568" ignored="false" />
+    <file path="/DISPreviewImageActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398252538112" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/target/generated-sources/r/com/viewpagerindicator/R.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398252644633" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +206,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -119,7 +243,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -129,10 +252,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="40" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.08972504">
+            <state line="29" column="40" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloAndroidActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/example/HelloAndroidActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="25" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DISPreviewImageActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/activity/DISPreviewImageActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="327" selection-end="327" vertical-scroll-proportion="0.66579634">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="91" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="11" selection-start="450" selection-end="450" vertical-scroll-proportion="-5.44">
               <folding />
             </state>
           </provider>
@@ -150,6 +323,10 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/DISGalleryVersion3/pom.xml" />
+        <option value="$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/component/DISGalleryComponent.java" />
+        <option value="$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/adapter/DISSlideShowAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/example/HelloAndroidActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -159,6 +336,40 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Example" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Example" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -194,6 +405,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Revu" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -213,27 +426,196 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gen-external-apklibs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gen-external-apklibs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gen-external-apklibs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gallery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gen-external-apklibs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gallery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gen-external-apklibs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gallery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Revu" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DISGalleryVersion3" />
+    <property name="AndroidTargetDevices" value="985223d7" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android Application.example">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -339,7 +721,74 @@
       <patterns />
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="example" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="Example" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="package" />
+      </method>
+    </configuration>
+    <configuration default="false" name="Unnamed" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="-U" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.example" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.Unnamed" />
+    </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -358,32 +807,35 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21364221" sideWeight="0.67085075" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="reVu" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.67176634" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.5997211" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2059202" sideWeight="0.67085075" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.67085075" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39888424" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32775453" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40027893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26705277" sideWeight="0.5997211" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32823366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -447,6 +899,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -464,7 +920,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="40" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.08972504">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="40" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/component/DISGalleryComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="21" selection-start="706" selection-end="706" vertical-scroll-proportion="0.5978022">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="11" selection-start="450" selection-end="450" vertical-scroll-proportion="-5.44">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/adapter/DISSlideShowAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="65" selection-start="3168" selection-end="3168" vertical-scroll-proportion="1.6445013">
+          <folding>
+            <element signature="e#2631#2871#0" expanded="true" />
+            <element signature="e#2860#2861#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="91" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/example/HelloAndroidActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="25" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/activity/DISPreviewImageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="327" selection-end="327" vertical-scroll-proportion="0.66579634">
           <folding />
         </state>
       </provider>

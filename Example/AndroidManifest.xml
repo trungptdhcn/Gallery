@@ -20,14 +20,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.qsoft.android.components.gallery.DISPreviewActivity"
-                  android:theme="@android:style/Theme.NoTitleBar">
-        </activity>
-        <activity android:name="com.qsoft.android.components.gallery.DISOrderImageActivity"
-                  android:theme="@android:style/Theme.NoTitleBar"
+        <activity
+                android:name="com.qsoft.components.gallery.activity.DISPreviewImageActivity"
                 />
-        <activity android:name="com.qsoft.android.components.gallery.DISUploadImageActivity"
-                  android:theme="@android:style/Theme.NoTitleBar"/>
     </application>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
