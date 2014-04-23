@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Example.iml" filepath="$PROJECT_DIR$/Example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DISGalleryVersion3/target/generated-sources/generated-sources.iml" filepath="$PROJECT_DIR$/../DISGalleryVersion3/target/generated-sources/generated-sources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DISGalleryVersion3/src/main/main.iml" filepath="$PROJECT_DIR$/../DISGalleryVersion3/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gen-external-apklibs/~apklib-com.qsoft.android.components.gallery_gallery_1.1-SNAPSHOT.iml" filepath="$PROJECT_DIR$/gen-external-apklibs/~apklib-com.qsoft.android.components.gallery_gallery_1.1-SNAPSHOT.iml" />
+    </modules>
+  </component>
+</project>
+

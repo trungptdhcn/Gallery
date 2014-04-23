@@ -25,9 +25,6 @@
         <module name="DISGalleryVersion3" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="DISGalleryVersion3" target="1.6" />
-    </bytecodeTargetLevel>
   </component>
 </project>
 

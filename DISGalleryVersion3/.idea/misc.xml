@@ -7,11 +7,12 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="android" url="file://$PROJECT_DIR$" />
   </component>
-  <component name="IdProvider" IDEtalkID="F371AF995D6622F5D2DD287754908CAB" />
+  <component name="IdProvider" IDEtalkID="EA67A294CC6F18AEAB37CF8CA6B8B72B" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../Example/pom.xml" />
       </list>
     </option>
   </component>
