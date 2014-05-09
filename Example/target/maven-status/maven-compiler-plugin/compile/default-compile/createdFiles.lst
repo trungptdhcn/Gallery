@@ -9,6 +9,8 @@ com\qsoft\components\gallery\example\R$styleable.class
 com\qsoft\components\gallery\example\R$style.class
 com\viewpagerindicator\LinePageIndicator.class
 com\viewpagerindicator\CirclePageIndicator$SavedState$1.class
+com\qsoft\components\gallery\example\ImageModel.class
+com\qsoft\components\gallery\fragment\DISPreviewImageFragment.class
 com\viewpagerindicator\TitlePageIndicator$OnCenterItemClickListener.class
 com\viewpagerindicator\R$color.class
 com\qsoft\components\gallery\utils\LogUtils.class
@@ -21,6 +23,7 @@ com\qsoft\components\gallery\example\Manifest.class
 com\viewpagerindicator\UnderlinePageIndicator$SavedState.class
 com\viewpagerindicator\TitlePageIndicator$1.class
 com\viewpagerindicator\TabPageIndicator$TabView.class
+com\qsoft\components\gallery\example\NewActivity.class
 com\qsoft\components\gallery\model\Image.class
 com\qsoft\components\gallery\example\HelloAndroidActivity.class
 com\viewpagerindicator\BuildConfig.class
@@ -37,6 +40,7 @@ com\qsoft\components\gallery\model\Image$1.class
 com\qsoft\components\gallery\example\R$attr.class
 com\viewpagerindicator\PageIndicator.class
 com\qsoft\components\gallery\R$string.class
+com\qsoft\components\gallery\example\HelloAndroidActivity$1.class
 com\qsoft\components\gallery\R$attr.class
 com\viewpagerindicator\TitlePageIndicator$LinePosition.class
 com\viewpagerindicator\TabPageIndicator$1.class
@@ -68,6 +72,7 @@ com\qsoft\components\gallery\R$color.class
 com\viewpagerindicator\CirclePageIndicator.class
 com\viewpagerindicator\LinePageIndicator$SavedState.class
 com\viewpagerindicator\CirclePageIndicator$SavedState.class
+com\qsoft\components\gallery\custom_view\EnableDisableViewPager.class
 com\viewpagerindicator\LinePageIndicator$SavedState$1.class
 com\viewpagerindicator\TabPageIndicator$OnTabReselectedListener.class
 com\qsoft\components\gallery\example\R.class
@@ -78,6 +83,7 @@ com\qsoft\components\gallery\R$bool.class
 com\qsoft\components\gallery\model\ImageContainer.class
 com\viewpagerindicator\UnderlinePageIndicator$1.class
 com\qsoft\components\gallery\R$id.class
+com\qsoft\components\gallery\model\ModelEvents.class
 com\viewpagerindicator\UnderlinePageIndicator$2.class
 com\viewpagerindicator\IconPagerAdapter.class
 com\qsoft\components\gallery\R$integer.class

@@ -33,6 +33,7 @@
     <orderEntry type="library" name="Maven: com.nostra13.universalimageloader:universal-image-loader:1.9.1" level="project" />
     <orderEntry type="library" name="Maven: android.support:compatibility-v4:19.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.qsoft.android.components.image-view-gesture:image-view-gesture:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.androidannotations:androidannotations-api:2.7.1" level="project" />
     <orderEntry type="module" module-name="~apklib-com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT" />
     <orderEntry type="module" module-name="~apklib-com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT" />
   </component>

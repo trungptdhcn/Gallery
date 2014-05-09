@@ -23,6 +23,7 @@
         <activity
                 android:name="com.qsoft.components.gallery.activity.DISPreviewImageActivity"
                 />
+        <activity android:name=".NewActivity"/>
     </application>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.INTERNET"/>

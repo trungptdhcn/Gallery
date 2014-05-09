@@ -164,34 +164,411 @@
     <file path="$PROJECT_DIR$/res/values-v11/styles.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398224078018" ignored="false" />
     <file path="$PROJECT_DIR$/res/values-sw600dp/dimens.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398224078018" ignored="false" />
     <file path="$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery_1.1-SNAPSHOT/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398224329982" ignored="false" />
-    <file path="$PROJECT_DIR$/../DISGalleryVersion3/pom.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398246339105" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/pom.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398515671163" ignored="false" />
     <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/HelloAndroidActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398224491671" ignored="false" />
-    <file path="$PROJECT_DIR$/../DISGalleryVersion3/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398246339105" ignored="false" />
-    <file path="/Dummy.txt" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398246642154" ignored="false" />
-    <file path="$PROJECT_DIR$/../DISGalleryVersion3/.idea/workspace.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398245633870" ignored="false" />
-    <file path="/fragment.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398247735312" ignored="false" />
-    <file path="$PROJECT_DIR$/../DISGalleryVersion3/res/layout/dis_slide_show.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398249770804" ignored="false" />
-    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/component/DISGalleryComponent.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398249721820" ignored="false" />
-    <file path="$PROJECT_DIR$/../DISGalleryVersion3/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398246339105" ignored="false" />
-    <file path="$PROJECT_DIR$/target/generated-sources/r/com/qsoft/components/gallery/example/R.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398252664018" ignored="false" />
-    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/adapter/DISSlideShowAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398251555089" ignored="false" />
-    <file path="/DISSlideShowAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398251534535" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398427479897" ignored="false" />
+    <file path="/Dummy.txt" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398484571315" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/.idea/workspace.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398517221408" ignored="false" />
+    <file path="/fragment.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398516189647" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/res/layout/dis_slide_show.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398331721766" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/component/DISGalleryComponent.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398423680258" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398516234248" ignored="false" />
+    <file path="$PROJECT_DIR$/target/generated-sources/r/com/qsoft/components/gallery/example/R.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398315358373" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/adapter/DISSlideShowAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398482219773" ignored="false" />
+    <file path="/DISSlideShowAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398478412703" ignored="false" />
     <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/utils/ClassUtils.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398247046222" ignored="false" />
     <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/utils/LogUtils.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398247046222" ignored="false" />
     <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/utils/ImageUtils.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398247046222" ignored="false" />
-    <file path="/dis_slide_show.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398249757930" ignored="false" />
+    <file path="/dis_slide_show.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398331705298" ignored="false" />
     <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/custom_view/WrapContentHeightViewPager.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398247931219" ignored="false" />
     <file path="E:/DIS/CommonComponent/Tonghop/Gallery_TrungPT/DISGalleryVersion2/res/layout/dis_gallery.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398248337013" ignored="false" />
-    <file path="/DISGalleryComponent.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398249699692" ignored="false" />
-    <file path="/HelloAndroidActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398251062185" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398251195625" ignored="false" />
+    <file path="/DISGalleryComponent.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398424580135" ignored="false" />
+    <file path="/HelloAndroidActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398315335995" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398486880035" ignored="false" />
     <file path="E:/DIS/CommonComponent/Tonghop/Gallery_TrungPT/DISGalleryVersion2/res/layout/dis_preview_image_pager_item.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398251956058" ignored="false" />
     <file path="/dis_preview_image_pager_item.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398251949817" ignored="false" />
-    <file path="/dis_preview_image.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398252121165" ignored="false" />
-    <file path="$PROJECT_DIR$/../DISGalleryVersion3/res/layout/dis_preview_image.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398252123231" ignored="false" />
-    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/activity/DISPreviewImageActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398252539568" ignored="false" />
-    <file path="/DISPreviewImageActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398252538112" ignored="false" />
-    <file path="$PROJECT_DIR$/../DISGalleryVersion3/target/generated-sources/r/com/viewpagerindicator/R.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398252644633" ignored="false" />
+    <file path="/dis_preview_image.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398413110359" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/res/layout/dis_preview_image.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398413112286" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/activity/DISPreviewImageActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398484877382" ignored="false" />
+    <file path="/DISPreviewImageActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398484852143" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/target/generated-sources/r/com/viewpagerindicator/R.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398414514357" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/custom_view/EnableDisableViewPager.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398253078034" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/fragment/DISPreviewImageFragment.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398391372226" ignored="false" />
+    <file path="/DISPreviewImageFragment.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398339480240" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery_1.1-SNAPSHOT/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398329248383" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.jeremyfeinstein.slidingmenu_slidingmenu_1.3-SNAPSHOT/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398502216626" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.slidedrawer_slide-drawer_1.0-20140318.064732-1/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.jeremyfeinstein.slidingmenu_slidingmenu_1.3-SNAPSHOT/src/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504926108" ignored="false" />
+    <file path="/ImageContainer.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398394276966" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/model/ImageContainer.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398396298304" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/src/main/java/com/discorp/prism/sales/ui/model/Image.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398311947928" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/pom.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398329995134" ignored="false" />
+    <file path="/pom.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398515669022" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/src/main/java/com/discorp/prism/sales/ui/model/ImageModel.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398326655172" ignored="false" />
+    <file path="/ImageModel.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398315309068" ignored="false" />
+    <file path="/ModelEvents.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398335613823" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/model/ModelEvents.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398391372226" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/model/Image.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398314062715" ignored="false" />
+    <file path="/Image.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398314062715" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398326124812" ignored="false" />
+    <file path="$PROJECT_DIR$/target/generated-sources/r/com/qsoft/components/gallery/example/Manifest.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398315358373" ignored="false" />
+    <file path="$PROJECT_DIR$/target/generated-sources/r/com/qsoft/components/gallery/example/BuildConfig.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398315358373" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/res/layout/dis_preview_image_pager_item.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398315134293" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/res/layout/dis_preview_image.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398315134293" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/res/values-sw720dp-land/dimens.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398315134293" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/res/values/vpi__colors.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398315134293" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/res/values/vpi__attrs.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398315134293" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/res/values/vpi__styles.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398315134293" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/res/layout/dis_slide_show.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398315134293" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/res/values/strings.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398315134293" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/res/values/vpi__defaults.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398315134293" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/res/values/styles.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398315134293" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/res/color/vpi__light_theme.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398315134293" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/res/values-v14/styles.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398315134293" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/fragment/BaseImageFragment.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398325831913" ignored="false" />
+    <file path="/BaseImageFragment.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398325831913" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/sales/ui/fragment/CheckOutFilterFragment_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398505208941" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/sales/ui/fragment/UnitListFragment_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398505208941" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/ui/activity/FragmentContainerModelAwareActivity_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504967431" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/sales/ui/fragment/ModelFragment_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398505208941" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/sales/ui/fragment/FilterFragment_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398505208941" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/sales/ui/fragment/MakeFragment_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398505208941" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/sales/ui/fragment/builder/ModelUIBuilder_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504064108" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/dao/model/BaseContract.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398398467997" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/sales/ui/fragment/builder/UnitDetailBuilder_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504064108" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/dao/model/AddressContract.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398409388128" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/sales/ui/fragment/UnitDetailFragment_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398505208941" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/dao/model/ContactContract.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398398467997" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/res/values/config.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504398931" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/utils/PopupUtil_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504064108" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/r/com/discorp/prism/R.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398505179672" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/sales/ui/model/UnitDetailSpecModel_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398425913618" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/src/main/java/com/discorp/prism/ui/activity/FragmentContainerModelAwareActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398425561836" ignored="false" />
+    <file path="/FragmentContainerModelAwareActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398420020095" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398514813816" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.popup_popup_1.0-SNAPSHOT/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398496281368" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398502216626" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.groupheader_group-header_1.0-SNAPSHOT/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398496838441" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/src/main/java/com/discorp/prism/sales/ui/model/ImagePreviewModel.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398390928842" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/src/main/java/com/discorp/prism/sales/ui/model/UnitDetailImageModel.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398394538412" ignored="false" />
+    <file path="/UnitDetailImageModel.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398393655776" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/src/main/java/com/discorp/prism/sales/ui/model/UnitDetailModel.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398391470071" ignored="false" />
+    <file path="/UnitDetailModel.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398391460613" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/src/main/java/com/discorp/prism/sales/ui/fragment/builder/UnitDetailBuilder.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398423104622" ignored="false" />
+    <file path="/UnitDetailBuilder.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398423099788" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/src/main/java/com/discorp/prism/sales/ui/fragment/controller/UnitController.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398400138683" ignored="false" />
+    <file path="/UnitController.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398400113521" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/src/main/java/com/discorp/prism/sales/ui/fragment/UnitDetailFragment.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398502562456" ignored="false" />
+    <file path="/UnitDetailFragment.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398502556409" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/dao/model/LanguageContract.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398409388128" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/dao/model/AttachmentEquipmentContract.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398401302348" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/service/LanguageKeyAndValueService_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504064108" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/dao/model/LanguageKeyValueContract.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398409388128" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/dao/model/ReservationContract.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398398467997" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/dao/model/RentedInfoContract.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398409388128" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/service/LanguageService_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504064108" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/sales/ui/fragment/controller/UnitController_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398425629010" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/dao/model/ManufacturerContract.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398409388128" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/dao/model/CommunicationDetailContract.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398398467997" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/service/ConditionService_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504064108" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/dao/model/ConditionContract.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398398467997" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery_1.1-SNAPSHOT/src/com/qsoft/android/components/gallery/PicAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398329248383" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery_1.1-SNAPSHOT/src/com/qsoft/android/components/gallery/URLImageModel.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398329248383" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.groupheader_group-header_1.0-SNAPSHOT/src/com/qsoft/android/components/GroupHeader.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398505165027" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.popup_popup_1.0-SNAPSHOT/src/com/qsoft/android/components/common/PopupLocation.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398505165027" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.popup_popup_1.0-SNAPSHOT/src/com/qsoft/android/components/action/PopupListener.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398505165027" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.popup_popup_1.0-SNAPSHOT/src/com/qsoft/android/components/Popup.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398505165027" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/fragment/DISPreviewImageFragment.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398339335322" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/res/layout/unit_detail_available_group_header.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398330122417" ignored="false" />
+    <file path="/unit_detail_available_group_header.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398330120564" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/dao/model/CacheDataContract.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398398467997" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/adapter/DISSlideShowAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398514813816" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/component/DISGalleryComponent.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398514813816" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/model/ModelEvents.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398510046873" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/model/ImageContainer.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398514813816" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/fragment/BaseImageFragment.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398339335322" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398486882509" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/src/com/viewpagerindicator/CirclePageIndicator.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398514813816" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/dao/model/CustomFieldContract.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398398467997" ignored="false" />
+    <file path="/ImagePreviewModel.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398332143548" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/model/ImageBaseModel.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398423046519" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/model/ImageSlide.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398397026256" ignored="false" />
+    <file path="/ImageSlide.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398396863189" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/model/ImagePreview.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398397287615" ignored="false" />
+    <file path="/ImagePreview.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398332762386" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/src/main/java/com/discorp/prism/sales/ui/model/ImageSlideModel.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398334470685" ignored="false" />
+    <file path="/ImageSlideModel.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398334467254" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/model/ImageBaseModel.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398514813816" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/model/ImagePreview.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398510046873" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/model/ImageSlide.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398514813816" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/src/com/viewpagerindicator/CirclePageIndicator.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398335092648" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/service/ManufacturerService_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504064108" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/service/WebUserService_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504064108" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/service/AttachmentEquipmentService_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504064108" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/service/ProductService_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504064108" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/service/LocationService_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504064108" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/service/CacheDataService_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504064108" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/service/EquipmentService_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504064108" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/service/CustomerAuthenticator_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504064108" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/service/EquipmentHistoryService_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504064108" ignored="false" />
+    <file path="/ImageBaseModel.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398423044160" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/target/generated-sources/annotations/com/qsoft/components/gallery/fragment/DISPreviewImageFragment_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398337172437" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/fragment/TestActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398337132843" ignored="false" />
+    <file path="/TestActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398482967283" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/gen/com/qsoft/components/gallery/R.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398396412953" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/src/main/java/com/discorp/prism/sales/ui/fragment/BaseFragment.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398390928842" ignored="false" />
+    <file path="/BaseFragment.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398337835585" ignored="false" />
+    <file path="E:/DIS/CommonFragment/DISCommon/pom.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398339021624" ignored="false" />
+    <file path="E:/DIS/CommonFragment/DISCommon/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398339054114" ignored="false" />
+    <file path="E:/DIS/CommonFragment/DISCommon/src/main/java/com/qsoft/android/BaseFragment.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398339050777" ignored="false" />
+    <file path="E:/DIS/CommonFragment/DISCommon/src/main/java/com/qsoft/android/ApplicationStateHolder.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398339083760" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/src/main/java/com/discorp/prism/sales/ui/fragment/DISPreviewImageFragment.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398339482194" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/sales/ui/fragment/DISPreviewImageFragment_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398339522206" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/.idea/workspace.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398398612044" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/dao/model/ProductContract.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398398467997" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/dao/model/LocationContract.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398400295694" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/dao/model/CustomerContract.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398398467997" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/dao/model/EquipmentHistoryContract.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398425629010" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/dao/model/EquipmentContract.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398425629010" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/dao/model/WebUserContract.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398398467997" ignored="false" />
+    <file path="E:/DIS/CommonComponent/Tonghop/Gallery_TrungPT/DISGalleryVersion2/src/main/java/com/qsoft/android/components/gallery/ImagePagerAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398392174870" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/target/generated-sources/annotations/com/qsoft/components/gallery/activity/DISPreviewImageActivity_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398511849475" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.jeremyfeinstein.slidingmenu_slidingmenu_1.3-SNAPSHOT/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingPreferenceActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398393172788" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.jeremyfeinstein.slidingmenu_slidingmenu_1.3-SNAPSHOT/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398393172788" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/activity/DISPreviewImageActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398514813816" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.jeremyfeinstein.slidingmenu_slidingmenu_1.3-SNAPSHOT/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingListActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398393172788" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.jeremyfeinstein.slidingmenu_slidingmenu_1.3-SNAPSHOT/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingFragmentActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398393172788" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.popup_popup_1.0-SNAPSHOT/res/drawable/checkbox_background.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398496281368" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/res/menu/main.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.groupheader_group-header_1.0-SNAPSHOT/res/values/dimens.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398496281368" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/res/layout/dis_slide_show.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.slidedrawer_slide-drawer_1.0-20140318.064732-1/res/values-v11/styles.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/res/values/strings.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/res/values/styles.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/res/values/colors.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/res/color/vpi__dark_theme.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/res/values/dimens.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/res/color/vpi__light_theme.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/res/values/vpi__defaults.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/res/values-v14/styles.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/res/values/vpi__styles.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398496281368" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/res/values/vpi__attrs.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398496281368" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/res/values/vpi__colors.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/res/drawable/vpi__tab_indicator.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.slidedrawer_slide-drawer_1.0-20140318.064732-1/res/layout/app_icon.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.popup_popup_1.0-SNAPSHOT/res/layout/popup_layout.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.slidedrawer_slide-drawer_1.0-20140318.064732-1/res/anim/slide_up_dialog.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.slidedrawer_slide-drawer_1.0-20140318.064732-1/res/menu/main.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.popup_popup_1.0-SNAPSHOT/res/layout/popup_item_string_only.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.popup_popup_1.0-SNAPSHOT/res/menu/main.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.popup_popup_1.0-SNAPSHOT/res/values/styles.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.slidedrawer_slide-drawer_1.0-20140318.064732-1/res/anim/slide_out_down.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.popup_popup_1.0-SNAPSHOT/res/values-v14/styles.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.popup_popup_1.0-SNAPSHOT/res/values/dimens.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.popup_popup_1.0-SNAPSHOT/res/drawable/popup_background_highlight.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398496281368" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.popup_popup_1.0-SNAPSHOT/res/values/strings.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398496281368" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.groupheader_group-header_1.0-SNAPSHOT/res/values-v11/styles.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398496281368" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.groupheader_group-header_1.0-SNAPSHOT/res/layout/group_header.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.slidedrawer_slide-drawer_1.0-20140318.064732-1/res/values-v14/styles.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.groupheader_group-header_1.0-SNAPSHOT/res/values-sw720dp-land/dimens.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.groupheader_group-header_1.0-SNAPSHOT/res/values/strings.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.groupheader_group-header_1.0-SNAPSHOT/res/values-sw600dp/dimens.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/res/values-sw600dp/dimens.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.slidedrawer_slide-drawer_1.0-20140318.064732-1/res/values/strings.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.jeremyfeinstein.slidingmenu_slidingmenu_1.3-SNAPSHOT/src/values/ids.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.jeremyfeinstein.slidingmenu_slidingmenu_1.3-SNAPSHOT/src/layout/slidingmenumain.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.jeremyfeinstein.slidingmenu_slidingmenu_1.3-SNAPSHOT/src/values/attrs.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.jeremyfeinstein.slidingmenu_slidingmenu_1.3-SNAPSHOT/res/values/ids.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398496281368" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.jeremyfeinstein.slidingmenu_slidingmenu_1.3-SNAPSHOT/res/values/attrs.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/res/values-sw720dp-land/dimens.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398499701035" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.groupheader_group-header_1.0-SNAPSHOT/res/values/colors.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398496281368" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.popup_popup_1.0-SNAPSHOT/res/values-v11/styles.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.popup_popup_1.0-SNAPSHOT/res/values-sw600dp/dimens.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398496281368" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.groupheader_group-header_1.0-SNAPSHOT/res/values-v14/styles.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.slidedrawer_slide-drawer_1.0-20140318.064732-1/res/values/dimens.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398499701035" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/service/sync/SyncAdapter_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504967431" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/custom_view/EnableDisableViewPager.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398510046873" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/qsoft/components/gallery/activity/DISPreviewImageActivity_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398502601013" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/res/layout/dis_preview_image_pager_item.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398496281368" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/res/layout/dis_preview_image.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398496281368" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.jeremyfeinstein.slidingmenu_slidingmenu_1.3-SNAPSHOT/res/layout/slidingmenumain.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398496281368" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.groupheader_group-header_1.0-SNAPSHOT/res/values/styles.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398499701035" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.slidedrawer_slide-drawer_1.0-20140318.064732-1/res/values/styles.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398496281368" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/res/values-v11/styles.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398496281368" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.slidedrawer_slide-drawer_1.0-20140318.064732-1/res/values-sw720dp-land/dimens.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398496281368" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.slidedrawer_slide-drawer_1.0-20140318.064732-1/res/values-sw600dp/dimens.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398496281368" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.popup_popup_1.0-SNAPSHOT/res/values-sw720dp-land/dimens.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398496281368" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.popup_popup_1.0-SNAPSHOT/res/layout/popup_item_string_value.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398496281368" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.popup_popup_1.0-SNAPSHOT/res/layout/popup_item_string_checkbox.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398496281368" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/config/development/config.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398400331393" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/service/sync/SyncProductStrategy_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504064108" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/service/sync/SyncEquipmentHistoryStrategy_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504064108" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/service/sync/SyncLocalizedStrategy_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504064108" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/service/sync/SyncManufactureStrategy_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504064108" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/service/sync/SyncService_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504064108" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/service/sync/SyncEquipmentStrategy_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504064108" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/src/main/java/com/discorp/prism/common/service/remote/dto/ImageDTO.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398408088739" ignored="false" />
+    <file path="/ImageDTO.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398408080938" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/src/main/java/com/discorp/prism/common/service/remote/dto/ImageListDTO.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398408102218" ignored="false" />
+    <file path="/ImageListDTO.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398408097899" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/common/Constant.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398414487597" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/common/ConstantImage.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398484837691" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/target/generated-sources/r/com/qsoft/components/gallery/R.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398514745896" ignored="false" />
+    <file path="/ConstantImage.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398484834460" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/src/main/java/com/discorp/prism/sales/ui/model/event/IHandlingActivityResult.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398416588552" ignored="false" />
+    <file path="/IHandlingActivityResult.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398416580343" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/src/main/java/com/discorp/prism/sales/ui/handling/UnitDetailHandlingResult.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398425838499" ignored="false" />
+    <file path="/UnitDetailHandlingResult.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398425837496" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/common/ConstantImage.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398514813816" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/dao/ConditionDAO_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398496879242" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/src/com/viewpagerindicator/UnderlinePageIndicator.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398423324759" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.popup_popup_1.0-SNAPSHOT/src/com/qsoft/android/components/common/PopupType.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398505165027" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/utils/ClassUtils.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398422200315" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/r/com/qsoft/android/components/slidedrawer/BuildConfig.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398422187978" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/r/com/qsoft/components/gallery/BuildConfig.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398495360912" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/r/com/discorp/prism/BuildConfig.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504064108" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/r/com/viewpagerindicator/BuildConfig.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398422187978" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/r/discorp/commonui/BuildConfig.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398422187978" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/r/com/jeremyfeinstein/slidingmenu/lib/BuildConfig.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398422187978" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/r/com/qsoft/android/components/BuildConfig.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398422187978" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.jeremyfeinstein.slidingmenu_slidingmenu_1.3-SNAPSHOT/src/com/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398423432025" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/ui/fragment/MainFragment_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504064108" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/src/com/viewpagerindicator/TabPageIndicator.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398423324759" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/src/com/viewpagerindicator/PageIndicator.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398423818686" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/src/com/viewpagerindicator/LinePageIndicator.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398423324759" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/src/com/viewpagerindicator/IconPagerAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398422200316" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/src/com/viewpagerindicator/IcsLinearLayout.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398423324759" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/src/com/viewpagerindicator/TitlePageIndicator.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398423324759" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/src/com/viewpagerindicator/IconPageIndicator.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398423324759" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.popup_popup_1.0-SNAPSHOT/src/com/qsoft/android/components/PopupItem.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398425873983" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.jeremyfeinstein.slidingmenu_slidingmenu_1.3-SNAPSHOT/src/com/jeremyfeinstein/slidingmenu/lib/MenuInterface.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398423432025" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.jeremyfeinstein.slidingmenu_slidingmenu_1.3-SNAPSHOT/src/com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398423818686" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.jeremyfeinstein.slidingmenu_slidingmenu_1.3-SNAPSHOT/src/com/jeremyfeinstein/slidingmenu/lib/CustomViewBehind.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398423818686" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/src/main/java/com/discorp/prism/common/constant/Const.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398425829085" ignored="false" />
+    <file path="/Const.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398425826636" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/r/com/jeremyfeinstein/slidingmenu/lib/R.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398425913618" ignored="false" />
+    <file path="E:/New folder/PagedDragDropGrid-master/pageddragdropgrid-examples/src/ca/laplanete/mobile/example/ExamplePagedDragDropGridAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398426654626" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/activity/DISOrderImageActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398479394049" ignored="false" />
+    <file path="/DISOrderImageActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398478644938" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/res/layout/dis_order_image.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398427993128" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/dynamicgrid/pom.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398427686141" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/dynamicgrid/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398481478593" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/dynamicgrid/src/main/java/org/askerov/dynamicgid/DynamicGridView.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398427663942" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/dynamicgrid/src/main/java/org/askerov/dynamicgid/DynamicGridUtils.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398427663942" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/dynamicgrid/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/res/color/vpi__dark_theme.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398427680335" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/dynamicgrid/src/main/java/org/askerov/dynamicgid/AbstractDynamicGridAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398427663942" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/dynamicgrid/src/main/java/org/askerov/dynamicgid/BaseDynamicGridAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398427663942" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/dynamicgrid/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398427680335" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/dynamicgrid/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/res/values/vpi__defaults.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398427682935" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/dynamicgrid/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/res/values/vpi__styles.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398427682935" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/dynamicgrid/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/res/values/vpi__attrs.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398427682935" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/dynamicgrid/gen-external-apklibs/com.qsoft.android.components.viewpager_viewpager-indicator_1.0-SNAPSHOT/res/values/vpi__colors.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398427682935" ignored="false" />
+    <file path="/dis_order_image.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398427993128" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/adapter/CheeseDynamicAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398428335315" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/res/layout/item_grid.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398428192785" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/res/layout/dis_order_image_item.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398497382601" ignored="false" />
+    <file path="/CheeseDynamicAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398483959291" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/adapter/DISOrderImageAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398429286181" ignored="false" />
+    <file path="/DISOrderImageAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398428397189" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/model/ImageOrder.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398428683581" ignored="false" />
+    <file path="/ImageOrder.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398428648930" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/example/src/org/askerov/dynamicgrid/example/CheeseDynamicAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398479553942" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/target/generated-sources/annotations/com/qsoft/components/gallery/activity/DISOrderImageActivity_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398511849475" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/activity/DISOrderImageActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398514813816" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/example/res/layout/activity_grid.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398480432430" ignored="false" />
+    <file path="/activity_grid.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398481230315" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/example/src/org/askerov/dynamicgrid/example/GridActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398480035238" ignored="false" />
+    <file path="/GridActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398483301460" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/dynamicgrid/gen/org/askerov/dynamicgid/BuildConfig.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398480180861" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/Test/res/values/strings.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398480577137" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/Test/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398483472925" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/Test/build.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398480577519" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/Test/src/com/example/Test/MyActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398480577520" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/Test/res/layout/main.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398480577520" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/Test/src/com/example/Test/GridActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398483364200" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/Test/src/com/example/Test/CheeseDynamicAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398483969901" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/Test/src/com/example/Test/Cheeses.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398480662983" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/Test/res/layout/activity_grid.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398481231197" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/Test/project.properties" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398481580489" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/adapter/DISOrderImageAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398510046873" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components_dynamicgrid_1.0-SNAPSHOT/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398502216626" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/r/org/askerov/dynamicgid/R.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398508815138" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/r/org/askerov/dynamicgid/BuildConfig.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398495360912" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/r/com/qsoft/components/gallery/R.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398508815138" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/qsoft/components/gallery/activity/DISOrderImageActivity_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398502601013" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/Test/src/com/example/Test/ImageBaseModel.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398482754424" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/Test/src/com/example/Test/DISOrderImageActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398482883009" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/Test/src/com/example/Test/TestActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398482982990" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/Test/gen/com/example/Test/R.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398483474147" ignored="false" />
+    <file path="E:/New folder/DynamicGrid-master/Test/res/layout/dis_order_image_item.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398483779916" ignored="false" />
+    <file path="/dis_order_image_item.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398497226354" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/activity/DISUploadImageActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398509694514" ignored="false" />
+    <file path="/DISUploadImageActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398496793879" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/res/layout/dis_upload_image.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398506306960" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/adapter/DISUploadImageAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398516419208" ignored="false" />
+    <file path="/DISUploadImageAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398516333429" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/model/ImageUpload.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398503823942" ignored="false" />
+    <file path="/ImageUpload.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398503817219" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/res/layout/galleryitem.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398486152256" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/target/generated-sources/annotations/com/qsoft/components/gallery/activity/DISUploadImageActivity_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398511849475" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/qsoft/components/gallery/activity/DISUploadImageActivity_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398505208941" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/activity/DISUploadImageActivity.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398514813816" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/res/layout/dis_upload_image.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398514813816" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/adapter/DISUploadImageAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398514813816" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/model/ImageUpload.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398514813816" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components_dynamicgrid_1.0-SNAPSHOT/src/org/askerov/dynamicgid/DynamicGridView.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398492501129" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/model/ImageOrder.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504359687" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/res/layout/dis_order_image.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398512032579" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/res/layout/dis_order_image_item.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components_dynamicgrid_1.0-SNAPSHOT/res/values/id.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/res/layout/galleryitem.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398493348452" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/res/layout/dis_upload_image_item.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398516066715" ignored="false" />
+    <file path="/dis_upload_image_item.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398516064099" ignored="false" />
+    <file path="/dis_upload_image.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398497894898" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/res/values/dimens.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398509731302" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/res/layout/unit_detail_main_layout.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398502509981" ignored="false" />
+    <file path="/unit_detail_main_layout.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398502292956" ignored="false" />
+    <file path="E:/DIS/CommonComponent/Tonghop/Gallery_TrungPT/DISGalleryVersion2/src/main/java/com/qsoft/android/components/gallery/UploadImageAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398503351314" ignored="false" />
+    <file path="/UploadImageAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398503335488" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/target/generated-sources/annotations/com/discorp/prism/common/service/sync/DownloadZipFile_.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398504064108" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/res/values/styles.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398506406592" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/res/values/colors.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398506446266" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/utils/AsyncTask.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398506703628" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/utils/ImageFetcher.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398506913227" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/utils/RecyclingBitmapDrawable.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398506983701" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/utils/DiskLruCache.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398506703628" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/utils/ImageWorker.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398506969306" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/utils/ImageResizer.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398506807030" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/utils/Utils.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398507033252" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/utils/ImageCache.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398506949644" ignored="false" />
+    <file path="$PROJECT_DIR$/../../DisplayingBitmaps/DisplayingBitmapsSample/src/main/java/com/example/android/displayingbitmaps/ui/ImageGridFragment.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398506746803" ignored="false" />
+    <file path="/ImageFetcher.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398506830579" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/common/logger/Log.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398506865841" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/common/logger/LogWrapper.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398506865841" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/common/logger/MessageOnlyLogFilter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398506865841" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/common/logger/LogFragment.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398506865841" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/common/logger/LogView.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398506866311" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/common/logger/LogNode.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398506865841" ignored="false" />
+    <file path="/Utils.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398507000583" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/custom_view/RecyclingImageView.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398508203156" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/target/generated-sources/r/com/qsoft/components/gallery/BuildConfig.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398510039242" ignored="false" />
+    <file path="E:/DIS/DISWG-2102/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/utils/Utils.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398510046873" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android-BitmapCache-master/library/pom.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398515579245" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android-BitmapCache-master/library/src/uk/co/senab/bitmapcache/CacheableImageView.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398515564709" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android-BitmapCache-master/library/src/uk/co/senab/bitmapcache/IoUtils.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398515564709" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android-BitmapCache-master/library/src/uk/co/senab/bitmapcache/Md5.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398515564709" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android-BitmapCache-master/library/src/uk/co/senab/bitmapcache/BitmapLruCache.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398515564709" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android-BitmapCache-master/library/src/uk/co/senab/bitmapcache/Constants.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398515564709" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android-BitmapCache-master/library/src/uk/co/senab/bitmapcache/CacheableBitmapDrawable.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398515564709" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android-BitmapCache-master/library/src/uk/co/senab/bitmapcache/WeakReferenceRunnable.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398515564709" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android-BitmapCache-master/library/AndroidManifest.xml" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398515564709" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android-BitmapCache-master/library/src/uk/co/senab/bitmapcache/BitmapMemoryLruCache.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398515564709" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android-BitmapCache-master/library/src/uk/co/senab/bitmapcache/SDK11.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398515564709" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android-BitmapCache-master/sample/src/uk/co/senab/bitmapcache/samples/PugListAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398515745388" ignored="false" />
+    <file path="/PugListAdapter.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398515728136" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/custom_view/NetworkedCacheableImageView.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398516294059" ignored="false" />
+    <file path="/NetworkedCacheableImageView.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398516275803" ignored="false" />
+    <file path="$PROJECT_DIR$/../DISGalleryVersion3/src/main/java/com/qsoft/components/gallery/SampleApplication.java" changelist="fe6ed4c7-c7b6-4e79-9ebc-916d85ebf848" time="1398516190551" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,6 +583,23 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/example/HelloAndroidActivity.java" line="2" class="HelloAndroidActivity.java" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -252,48 +646,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="ModelEvents.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/model/ModelEvents.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="40" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0">
+            <state line="9" column="3" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloAndroidActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="HelloAndroidActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/example/HelloAndroidActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="25" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.0">
+            <state line="31" column="112" selection-start="1591" selection-end="1591" vertical-scroll-proportion="0.304414">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#889#901#0" expanded="true" />
+                <marker date="1398315344397" expanded="true" signature="3537:3554" placeholder="(ịImage) -&gt; {" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DISPreviewImageActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/activity/DISPreviewImageActivity.java">
+      <file leaf-file-name="ImageModel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/example/ImageModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="327" selection-end="327" vertical-scroll-proportion="0.66579634">
+            <state line="10" column="13" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/AndroidManifest.xml">
+      <file leaf-file-name="ImageContainer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/model/ImageContainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="13" column="26" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <file leaf-file-name="NewActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/example/NewActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="91" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0">
+            <state line="10" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DISSlideShowAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/adapter/DISSlideShowAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="72" column="13" selection-start="2062" selection-end="2062" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageView.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/android/android/4.4.2_r2/android-4.4.2_r2.jar!/android/widget/ImageView.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="47" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/android/android/4.4.2_r2/android-4.4.2_r2.jar!/android/view/View.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="17" selection-start="155" selection-end="159" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -301,11 +724,20 @@
       </file>
       <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="24" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
           <provider editor-type-id="android-designer">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DISPreviewImageActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/activity/DISPreviewImageActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="11" selection-start="450" selection-end="450" vertical-scroll-proportion="-5.44">
+            <state line="18" column="0" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -325,8 +757,11 @@
         <option value="$PROJECT_DIR$/DISGalleryVersion3/pom.xml" />
         <option value="$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/component/DISGalleryComponent.java" />
         <option value="$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/adapter/DISSlideShowAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/example/HelloAndroidActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/model/ModelEvents.java" />
+        <option value="$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/model/ImageContainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/example/HelloAndroidActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/example/ImageModel.java" />
       </list>
     </option>
   </component>
@@ -405,9 +840,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Revu" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -466,116 +898,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gen-external-apklibs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gen-external-apklibs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gallery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gen-external-apklibs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gallery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adapter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gen-external-apklibs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gallery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Revu" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -585,6 +917,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="AndroidTargetDevices" value="985223d7" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
@@ -804,38 +1137,38 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21364221" sideWeight="0.67085075" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="reVu" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="reVu" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39888424" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40027893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.5997211" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2059202" sideWeight="0.67085075" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.67085075" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39888424" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32775453" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40027893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26705277" sideWeight="0.5997211" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.08043758" sideWeight="0.67085075" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.67085075" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21364221" sideWeight="0.67085075" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2059202" sideWeight="0.67085075" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925257" sideWeight="0.67085075" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32775453" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -918,51 +1251,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="40" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/component/DISGalleryComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="21" selection-start="706" selection-end="706" vertical-scroll-proportion="0.5978022">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="11" selection-start="450" selection-end="450" vertical-scroll-proportion="-5.44">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/adapter/DISSlideShowAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="65" selection-start="3168" selection-end="3168" vertical-scroll-proportion="1.6445013">
-          <folding>
-            <element signature="e#2631#2871#0" expanded="true" />
-            <element signature="e#2860#2861#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -980,19 +1272,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/example/HelloAndroidActivity.java">
+    <entry file="file://$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/activity/DISPreviewImageActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="25" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="18" column="0" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/activity/DISPreviewImageActivity.java">
+    <entry file="file://$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/adapter/DISSlideShowAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="327" selection-end="327" vertical-scroll-proportion="0.66579634">
+        <state line="72" column="13" selection-start="2062" selection-end="2062" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/android/android/4.4.2_r2/android-4.4.2_r2.jar!/android/widget/ImageView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="47" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/android/android/4.4.2_r2/android-4.4.2_r2.jar!/android/view/View.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="155" selection-end="159" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="24" selection-start="907" selection-end="1114" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/model/ModelEvents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="3" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen-external-apklibs/com.qsoft.android.components.gallery_gallery-v2_1.0-SNAPSHOT/src/com/qsoft/components/gallery/model/ImageContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="26" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="24" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/example/ImageModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/example/NewActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/example/HelloAndroidActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="112" selection-start="1591" selection-end="1591" vertical-scroll-proportion="0.304414">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#889#901#0" expanded="true" />
+            <marker date="1398315344397" expanded="true" signature="3537:3554" placeholder="(ịImage) -&gt; {" />
+          </folding>
         </state>
       </provider>
     </entry>

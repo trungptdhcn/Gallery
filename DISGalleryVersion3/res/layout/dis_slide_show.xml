@@ -4,6 +4,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#ffffff"
+        android:gravity="center_horizontal"
         >
     <RelativeLayout
             android:id="@+id/dis_gallery_rlContainerGallery"
@@ -14,6 +15,7 @@
                 android:id="@+id/dis_slide_show_view_pager"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
                 />
     </RelativeLayout>
     <LinearLayout
@@ -22,12 +24,15 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:background="#000000"
-            android:minHeight="20dp">
+            android:minHeight="20dp"
+            android:layout_gravity="center_horizontal"
+            >
         <com.viewpagerindicator.CirclePageIndicator
                 android:id="@+id/indicator"
                 android:padding="5dp"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
+                android:layout_gravity="center"
                 />
     </LinearLayout>
 </LinearLayout>

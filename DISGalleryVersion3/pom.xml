@@ -39,6 +39,11 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.0.1</version>
+        </dependency>
+        <dependency>
             <groupId>com.nostra13.universalimageloader</groupId>
             <artifactId>universal-image-loader</artifactId>
             <type>jar</type>
@@ -63,6 +68,34 @@
             <type>apklib</type>
         </dependency>
 
+        <!--Anootation-->
+        <dependency>
+            <groupId>com.googlecode.androidannotations</groupId>
+            <artifactId>androidannotations</artifactId>
+            <version>2.7.1</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.googlecode.androidannotations</groupId>
+            <artifactId>androidannotations-api</artifactId>
+            <version>2.7.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.qsoft.android.components.cachebitmap</groupId>
+            <artifactId>cache-bitmap</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpmime</artifactId>
+            <version>4.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.2.4</version>
+        </dependency>
     </dependencies>
 
     <build>
