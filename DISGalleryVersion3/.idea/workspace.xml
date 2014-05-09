@@ -163,79 +163,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc727d28-9ab9-4035-9020-bf01912edcea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/bg_topbar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/bg_topbar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/bg_topbar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/bg_topbar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/bg_unit_photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/bg_unit_photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/bg_unit_photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/bg_unit_photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/bt_order_photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/bt_order_photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/bt_order_photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/bt_order_photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/bt_topbar_9_patch.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/bt_topbar_9_patch.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/bt_topbar_9_patch.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/bt_topbar_9_patch.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/bt_upload_photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/bt_upload_photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/bt_upload_photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/bt_upload_photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_download_photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/icon_download_photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/icon_download_photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/icon_download_photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_edit_photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/icon_edit_photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/icon_edit_photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/icon_edit_photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_trash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/icon_trash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/icon_trash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/icon_trash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/utils/ClassUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/custom_view/EnableDisableViewPager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/model/ImageBaseModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/utils/ImageUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/utils/LogUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/model/ModelEvents.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/colors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/dis_preview_image.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/dis_preview_image_pager_item.xml" />
-      <change type="DELETED" beforePath="E:\Tuyetmat\GalleryVersion3\DISGalleryVersion3\gen\com\qsoft\components\gallery\BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\Tuyetmat\GalleryVersion3\DISGalleryVersion3\gen\com\qsoft\components\gallery\Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\Tuyetmat\GalleryVersion3\DISGalleryVersion3\gen\com\qsoft\components\gallery\R.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\Tuyetmat\GalleryVersion3\DISGalleryVersion3\src\main\java\com\qsoft\components\gallery\model\Image.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\Tuyetmat\GalleryVersion3\DISGalleryVersion3\src\main\java\com\qsoft\components\gallery\model\ImageContainer.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Example/target/Example.ap_" afterPath="$PROJECT_DIR$/../Example/target/Example.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Example/target/Example.apk" afterPath="$PROJECT_DIR$/../Example/target/Example.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Example/target/Example.jar" afterPath="$PROJECT_DIR$/../Example/target/Example.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Example/target/classes/com/qsoft/components/gallery/example/HelloAndroidActivity.class" afterPath="$PROJECT_DIR$/../Example/target/classes/com/qsoft/components/gallery/example/HelloAndroidActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Example/target/classes.dex" afterPath="$PROJECT_DIR$/../Example/target/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Example/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../Example/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Example/target/generated-sources/r/com/qsoft/components/gallery/example/BuildConfig.java" afterPath="$PROJECT_DIR$/../Example/target/generated-sources/r/com/qsoft/components/gallery/example/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/component/DISGalleryComponent.java" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/component/DISGalleryComponent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DISGalleryVersion3.iml" afterPath="$PROJECT_DIR$/DISGalleryVersion3.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/activity/DISPreviewImageActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/activity/DISPreviewImageActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/adapter/DISSlideShowAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/adapter/DISSlideShowAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Example/Example.iml" afterPath="$PROJECT_DIR$/../Example/Example.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Example/src/main/java/com/qsoft/components/gallery/example/HelloAndroidActivity.java" afterPath="$PROJECT_DIR$/../Example/src/main/java/com/qsoft/components/gallery/example/HelloAndroidActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Example/target/generated-sources/r/com/qsoft/components/gallery/example/Manifest.java" afterPath="$PROJECT_DIR$/../Example/target/generated-sources/r/com/qsoft/components/gallery/example/Manifest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Example/target/generated-sources/r/com/qsoft/components/gallery/example/R.java" afterPath="$PROJECT_DIR$/../Example/target/generated-sources/r/com/qsoft/components/gallery/example/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Example/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/../Example/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/dimens.xml" afterPath="$PROJECT_DIR$/res/values/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/dis_slide_show.xml" afterPath="$PROJECT_DIR$/res/layout/dis_slide_show.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/styles.xml" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/icon_check.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/icon_uncheck.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/take_photo_frame.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/dynamicgrid/AbstractDynamicGridAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/dynamicgrid/BaseDynamicGridAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/common/ConstantImage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/activity/DISOrderImageActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/adapter/DISOrderImageAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/activity/DISUploadImageActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/adapter/DISUploadImageAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/dynamicgrid/DynamicGridUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/dynamicgrid/DynamicGridView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/model/dto/EquipmentHistoryDTO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/model/dto/ImageDTO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/model/dto/ImageListDTO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/model/ImageOrder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/model/ImageOrderModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/model/ImagePreview.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/model/ImageSlide.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/model/ImageUpload.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/model/ImageUploadModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/model/ImageViewModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/model/dto/LocationDTO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/dynamicgrid/MyGestureDetector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/model/dto/ResponseDTO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/model/dto/ResultDTO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/utils/Utils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/dis_order_image.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/dis_order_image_item.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/dis_slide_show_item.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/dis_upload_image.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/dis_upload_image_item.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/id.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/photogrid_list_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/relativelayout_custom_background.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Example/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Example/.idea/workspace.xml" />
     </list>
     <ignored path="DISGalleryVersion3.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bc727d28-9ab9-4035-9020-bf01912edcea" time="1399625906878" ignored="false" />
+    <file path="/Dummy.txt" changelist="bc727d28-9ab9-4035-9020-bf01912edcea" time="1399626044840" ignored="false" />
     <file path="/fragment.java" changelist="bc727d28-9ab9-4035-9020-bf01912edcea" time="1399618085002" ignored="false" />
     <file path="E:/DIS/CommonComponent/Tonghop/Gallery_TrungPT/DISGalleryVersion2/src/main/java/com/qsoft/android/components/gallery/DISGalleryComponent.java" changelist="bc727d28-9ab9-4035-9020-bf01912edcea" time="1398234769270" ignored="false" />
     <file path="/DISGalleryComponent.java" changelist="bc727d28-9ab9-4035-9020-bf01912edcea" time="1399261150539" ignored="false" />
@@ -835,7 +802,7 @@
       <file leaf-file-name="EquipmentHistoryDTO.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/model/dto/EquipmentHistoryDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="122" selection-start="2252" selection-end="2252" vertical-scroll-proportion="0.76036865">
+            <state line="95" column="122" selection-start="2252" selection-end="2252" vertical-scroll-proportion="0.49253732">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1359,6 +1326,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DISGalleryVersion3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DISGalleryVersion3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1672,12 +1657,16 @@
       <created>1398252914070</created>
       <updated>1398252914070</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="as">
+      <created>1399626063870</created>
+      <updated>1399626063870</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="reVu" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1691,7 +1680,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26638773" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1699,7 +1688,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.06370656" sideWeight="0.67085075" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3153153" sideWeight="0.67085075" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3153153" sideWeight="0.67085075" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3379694" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22265123" sideWeight="0.6750349" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1888,7 +1877,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/components/gallery/model/dto/EquipmentHistoryDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="122" selection-start="2252" selection-end="2252" vertical-scroll-proportion="0.76036865">
+        <state line="95" column="122" selection-start="2252" selection-end="2252" vertical-scroll-proportion="0.49253732">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RelativeLayout
+            android:id="@+id/dis_order_image_item_rlContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/relativelayout_custom_background"
+            >
+        <ImageView
+                android:id="@+id/dis_order_image_item_ivImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:padding="1dp"
+                />
+        <ImageView
+                android:id="@+id/dis_order_image_item_cbShowImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                />
+        <LinearLayout
+                android:id="@+id/dis_order_image_item_llUploading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@android:drawable/screen_background_dark_transparent"
+                android:gravity="center"
+                android:visibility="gone"
+                >
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Uploading..."
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
