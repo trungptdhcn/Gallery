@@ -2,7 +2,8 @@ package com.qsoft.components.gallery.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.view.View;
+import com.qsoft.components.gallery.model.dto.EquipmentHistoryDTOLib;
+import com.qsoft.components.gallery.model.dto.LocationDTOLib;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +13,7 @@ import java.util.List;
  * Date: 4/24/14
  * Time: 4:41 PM
  */
-public abstract class ImageContainer<T extends ImageBaseModel> implements Parcelable
+public abstract class ImageContainer<T extends ImageBaseModel, L> implements Parcelable
 {
     public String urlDeleteImage;
     public String urlUploadImage;
@@ -23,6 +24,9 @@ public abstract class ImageContainer<T extends ImageBaseModel> implements Parcel
     public int position;
     public Long equipmentId;
     public Long userId;
+    public LocationDTOLib locationDTOLib;
+    public EquipmentHistoryDTOLib equipmentHistoryDTOLib;
+    public L locationDTO;
 
     protected ImageContainer()
     {
@@ -40,6 +44,18 @@ public abstract class ImageContainer<T extends ImageBaseModel> implements Parcel
         parcel.writeString(urlGetImage);
         parcel.writeString(urlOrderImage);
         parcel.writeString(urlDownloadImage);
+        if(locationDTO != null)
+        {
+            parcel.writeParcelable((Parcelable) locationDTO, i);
+        }
+        if (locationDTOLib != null)
+        {
+            parcel.writeParcelable(locationDTOLib, i);
+        }
+        if (equipmentHistoryDTOLib != null)
+        {
+            parcel.writeParcelable(equipmentHistoryDTOLib, i);
+        }
 
     }
 
@@ -55,6 +71,9 @@ public abstract class ImageContainer<T extends ImageBaseModel> implements Parcel
         urlGetImage = in.readString();
         urlOrderImage = in.readString();
         urlDownloadImage = in.readString();
+        locationDTOLib = in.readParcelable(LocationDTOLib.class.getClassLoader());
+        equipmentHistoryDTOLib = in.readParcelable(EquipmentHistoryDTOLib.class.getClassLoader());
+
     }
 
 
@@ -146,5 +165,35 @@ public abstract class ImageContainer<T extends ImageBaseModel> implements Parcel
     public void setUrlDownloadImage(String urlDownloadImage)
     {
         this.urlDownloadImage = urlDownloadImage;
+    }
+
+    public LocationDTOLib getLocationDTOLib()
+    {
+        return locationDTOLib;
+    }
+
+    public void setLocationDTOLib(LocationDTOLib locationDTOLib)
+    {
+        this.locationDTOLib = locationDTOLib;
+    }
+
+    public EquipmentHistoryDTOLib getEquipmentHistoryDTOLib()
+    {
+        return equipmentHistoryDTOLib;
+    }
+
+    public void setEquipmentHistoryDTOLib(EquipmentHistoryDTOLib equipmentHistoryDTOLib)
+    {
+        this.equipmentHistoryDTOLib = equipmentHistoryDTOLib;
+    }
+
+    public L getLocationDTO()
+    {
+        return locationDTO;
+    }
+
+    public void setLocationDTO(L locationDTO)
+    {
+        this.locationDTO = locationDTO;
     }
 }

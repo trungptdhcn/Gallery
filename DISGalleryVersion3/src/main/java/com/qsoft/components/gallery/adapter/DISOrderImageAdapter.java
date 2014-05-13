@@ -24,9 +24,8 @@ import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
 import com.qsoft.components.gallery.R;
 import com.qsoft.components.gallery.dynamicgrid.BaseDynamicGridAdapter;
 import com.qsoft.components.gallery.model.*;
-import com.qsoft.components.gallery.utils.Utils;
+import com.qsoft.components.gallery.utils.GalleryUtils;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -97,7 +96,7 @@ public class DISOrderImageAdapter extends BaseDynamicGridAdapter
                             Display display = ((Activity) context).getWindowManager().getDefaultDisplay();
                             int width = display.getWidth();
                             int height = display.getHeight();
-                            imageView.setImageBitmap(Utils.scaleCenterCrop(loadedImage, width / 3, width / 3));
+                            imageView.setImageBitmap(GalleryUtils.scaleCenterCrop(loadedImage, width / 3, width / 3));
                         }
 
                         @Override
@@ -160,7 +159,7 @@ public class DISOrderImageAdapter extends BaseDynamicGridAdapter
                             Display display = ((Activity) context).getWindowManager().getDefaultDisplay();
                             int width = display.getWidth();
                             int height = display.getHeight();
-                            holder.ivImage.setImageBitmap(Utils.scaleCenterCrop(loadedImage, width / 3, width / 3));
+                            holder.ivImage.setImageBitmap(GalleryUtils.scaleCenterCrop(loadedImage, width / 3, width / 3));
                         }
 
                         @Override

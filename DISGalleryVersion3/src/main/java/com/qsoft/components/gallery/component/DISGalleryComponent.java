@@ -1,10 +1,7 @@
 package com.qsoft.components.gallery.component;
 
-import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.drawable.Drawable;
-import android.os.StrictMode;
 import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
@@ -13,22 +10,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import com.qsoft.components.gallery.R;
 import com.qsoft.components.gallery.adapter.DISSlideShowAdapter;
-import com.qsoft.components.gallery.common.ConstantImage;
-import com.qsoft.components.gallery.model.ImageBaseModel;
-import com.qsoft.components.gallery.model.ImageContainer;
-import com.qsoft.components.gallery.utils.Utils;
 import com.viewpagerindicator.CirclePageIndicator;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.List;
 
 /**
  * User: trungpt

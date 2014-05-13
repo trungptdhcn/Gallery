@@ -14,6 +14,7 @@ public class ConstantImage
     public static final String USER_ID = "webUserId";
     public static final String SLIDE_MODEL_IMAGE = "slideImage";
     public static final String PREVIEW_MODEL_IMAGE = "previewImage";
+    public static final String EQUIPMENT_HISTORY = "equipmentHistory";
     //Flag
     public static final String EVENT_FLAG = "flag";
     public static final String TRASH_IMAGE_FLAG = "trash";

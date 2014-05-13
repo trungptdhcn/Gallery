@@ -5,12 +5,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.Canvas;
-import android.graphics.RectF;
 import android.net.Uri;
 import android.provider.MediaStore;
-import android.util.Log;
 import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -25,12 +21,9 @@ import com.qsoft.components.gallery.R;
 import com.qsoft.components.gallery.common.ConstantImage;
 import com.qsoft.components.gallery.model.ImageBaseModel;
 import com.qsoft.components.gallery.model.ImageContainer;
-import com.qsoft.components.gallery.model.ImageUpload;
 import com.qsoft.components.gallery.model.ImageUploadModel;
-import com.qsoft.components.gallery.utils.Utils;
-import org.apache.commons.lang3.StringUtils;
+import com.qsoft.components.gallery.utils.GalleryUtils;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -102,6 +95,10 @@ public class DISUploadImageAdapter<C extends ImageContainer, B extends ImageBase
                 cursor.moveToFirst();
                 uri = cursor.getString(cursor.getColumnIndex(MediaStore.Images.Thumbnails.DATA));
             }
+            else
+            {
+                uri = strUrl.get(imageId.indexOf(id));
+            }
             cursor.close();
             ImageUploadModel imageUpload = new ImageUploadModel();
             imageUpload.setThumbnailUri("file://" + uri);
@@ -156,7 +153,7 @@ public class DISUploadImageAdapter<C extends ImageContainer, B extends ImageBase
                 public void onClick(View view)
                 {
                     Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
-                    fileUri = Utils.getOutputMediaFileUri(Utils.MEDIA_TYPE_IMAGE);
+                    fileUri = GalleryUtils.getOutputMediaFileUri(GalleryUtils.MEDIA_TYPE_IMAGE);
                     intent.putExtra(MediaStore.EXTRA_OUTPUT, fileUri);
                     ((Activity) context).startActivityForResult(intent, ConstantImage.REQUEST_CODE_CAMERA);
                 }
@@ -217,7 +214,7 @@ public class DISUploadImageAdapter<C extends ImageContainer, B extends ImageBase
                             Display display = ((Activity) context).getWindowManager().getDefaultDisplay();
                             int width = display.getWidth();
                             int height = display.getHeight();
-                            holder.imageview.setImageBitmap(Utils.scaleCenterCrop(loadedImage, width / 3, width / 3));
+                            holder.imageview.setImageBitmap(GalleryUtils.scaleCenterCrop(loadedImage, width / 3, width / 3));
                         }
 
                         @Override

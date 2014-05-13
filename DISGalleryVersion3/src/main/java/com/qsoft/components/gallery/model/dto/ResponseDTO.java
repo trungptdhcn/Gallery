@@ -11,4 +11,14 @@ public class ResponseDTO
 {
     @SerializedName("result")
     private ResultDTO resultDTO;
+
+    public ResultDTO getResultDTO()
+    {
+        return resultDTO;
+    }
+
+    public void setResultDTO(ResultDTO resultDTO)
+    {
+        this.resultDTO = resultDTO;
+    }
 }

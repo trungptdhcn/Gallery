@@ -4,16 +4,13 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.drawable.Drawable;
 import android.os.Parcelable;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.util.SparseArray;
 import android.view.*;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
-import android.widget.TextView;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
@@ -22,12 +19,10 @@ import com.nostra13.universalimageloader.core.assist.ImageLoadingListener;
 import com.nostra13.universalimageloader.core.assist.ImageLoadingProgressListener;
 import com.polites.android.GestureImageView;
 import com.qsoft.components.gallery.R;
-import com.qsoft.components.gallery.activity.DISPreviewImageActivity;
 import com.qsoft.components.gallery.activity.DISPreviewImageActivity_;
 import com.qsoft.components.gallery.common.ConstantImage;
 import com.qsoft.components.gallery.custom_view.EnableDisableViewPager;
 import com.qsoft.components.gallery.model.*;
-import com.qsoft.components.gallery.utils.Utils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -72,15 +67,6 @@ public class DISSlideShowAdapter<C extends ImageContainer, B extends ImageBaseMo
     @Override
     public int getCount()
     {
-//        int count = 0;
-//        List<B> imageList = modelImage.getImageList();
-//        for (B image : imageList)
-//        {
-//            if (image.isShown())
-//            {
-//                count++;
-//            }
-//        }
         return listShowInSlide.size();
     }
 
@@ -114,28 +100,6 @@ public class DISSlideShowAdapter<C extends ImageContainer, B extends ImageBaseMo
         ImageView imageView = null;
         if (modelImage instanceof ImageSlide)
         {
-//            imageView = new ImageView(context);
-//            imageLoader.init(ImageLoaderConfiguration.createDefault(context));
-//            if (modelImage.getImageList().get(position) instanceof ImageViewModel)
-//            {
-//                imageLoader.displayImage(((ImageViewModel) modelImage.getImageList().get(position)).getUrl(), imageView, options);
-//            }
-//
-//            ((ViewPager) container).addView(imageView, 0);
-//            imageView.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
-//            modelImage.setPosition(position);
-//            imageView.setOnClickListener(new View.OnClickListener()
-//            {
-//                @Override
-//                public void onClick(View view)
-//                {
-//                    modelImage.setPosition(position);
-//                    Intent i = new Intent(context, DISPreviewImageActivity_.class);
-//                    i.putExtra(ConstantImage.SLIDE_MODEL_IMAGE, (Parcelable) modelImage);
-//                    ((Activity) context).startActivityForResult(i, ConstantImage.REQUEST_CODE_PREVIEW_IMAGE);
-//
-//                }
-//            });
             LayoutInflater inflater = (LayoutInflater) context
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View viewLayout = inflater.inflate(R.layout.dis_slide_show_item, container, false);
@@ -204,7 +168,6 @@ public class DISSlideShowAdapter<C extends ImageContainer, B extends ImageBaseMo
                         }
                     }
             );
-//            imageLoader.displayImage(((B) modelImage.getImageList().get(position)).getUrl(), imageView, options);
             ((EnableDisableViewPager) container).addView(viewLayout);
             imageView.setOnTouchListener(new View.OnTouchListener()
             {
@@ -311,4 +274,13 @@ public class DISSlideShowAdapter<C extends ImageContainer, B extends ImageBaseMo
         super.notifyDataSetChanged();
     }
 
+    public List<B> getListShowInSlide()
+    {
+        return listShowInSlide;
+    }
+
+    public void setListShowInSlide(List<B> listShowInSlide)
+    {
+        this.listShowInSlide = listShowInSlide;
+    }
 }

@@ -5,7 +5,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Build;
-import android.os.Bundle;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
@@ -19,15 +18,13 @@ import com.googlecode.androidannotations.annotations.EActivity;
 import com.googlecode.androidannotations.annotations.ViewById;
 import com.qsoft.components.gallery.R;
 import com.qsoft.components.gallery.adapter.DISOrderImageAdapter;
-import com.qsoft.components.gallery.adapter.DISUploadImageAdapter;
 import com.qsoft.components.gallery.common.ConstantImage;
 import com.qsoft.components.gallery.dynamicgrid.DynamicGridView;
 import com.qsoft.components.gallery.dynamicgrid.MyGestureDetector;
 import com.qsoft.components.gallery.model.ImageBaseModel;
 import com.qsoft.components.gallery.model.ImagePreview;
 import com.qsoft.components.gallery.model.dto.ImageDTO;
-import com.qsoft.components.gallery.model.dto.ImageListDTO;
-import com.qsoft.components.gallery.utils.Utils;
+import com.qsoft.components.gallery.utils.GalleryUtils;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -81,7 +78,7 @@ public class DISOrderImageActivity extends Activity
                                         (gridView.getWidth() / numColumns) - mImageThumbSpacing;
                                 adapter.setNumColumns(numColumns);
                                 adapter.setItemHeight(columnWidth);
-                                if (Utils.hasJellyBean())
+                                if (GalleryUtils.hasJellyBean())
                                 {
                                     gridView.getViewTreeObserver()
                                             .removeOnGlobalLayoutListener(this);
@@ -154,48 +151,54 @@ public class DISOrderImageActivity extends Activity
     @Click(R.id.dis_order_image_btSave)
     public void eventSave()
     {
-
-        final Intent orderIntent = new Intent();
-        List<Object> objects = ((DISOrderImageAdapter) gridView.getAdapter()).getmItems();
-        final List<ImageDTO> imageDTOs = new ArrayList<ImageDTO>();
-        for (int i = 0; i < objects.size(); i++)
+        if (GalleryUtils.hasConnection(getApplicationContext()))
         {
-            ImageDTO imageDTO = new ImageDTO();
-            imageDTO.setFileId(((ImageBaseModel) objects.get(i)).getId());
-            imageDTO.setShown(((ImageBaseModel) objects.get(i)).isShown());
-            imageDTO.setIndex(Long.valueOf(i));
-            imageDTOs.add(imageDTO);
+            final Intent orderIntent = new Intent();
+            List<Object> objects = ((DISOrderImageAdapter) gridView.getAdapter()).getmItems();
+            final List<ImageDTO> imageDTOs = new ArrayList<ImageDTO>();
+            for (int i = 0; i < objects.size(); i++)
+            {
+                ImageDTO imageDTO = new ImageDTO();
+                imageDTO.setFileId(((ImageBaseModel) objects.get(i)).getId());
+                imageDTO.setShown(((ImageBaseModel) objects.get(i)).isShown());
+                imageDTO.setIndex(Long.valueOf(i));
+                imageDTOs.add(imageDTO);
+            }
+
+            new AsyncTask<String, String, String>()
+            {
+                @Override
+                protected String doInBackground(String... strings)
+                {
+                    String result = "";
+                    try
+                    {
+                        result = GalleryUtils.orderImage(imagePreview.getUrlOrderImage(), imageDTOs, imagePreview.getEquipmentId());
+                    }
+                    catch (IOException e)
+                    {
+                        e.printStackTrace();
+                    }
+                    return result;
+                }
+
+                @Override
+                protected void onPostExecute(String result)
+                {
+                    super.onPostExecute(result);
+                    if (result.contains("SUCCESS"))
+                    {
+                        setResult(RESULT_OK, orderIntent);
+                        orderIntent.putExtra(ConstantImage.EQUIPMENT_ID, imagePreview.getEquipmentId());
+                        finish();
+                    }
+                }
+            }.execute();
         }
-
-        new AsyncTask<String, String, String>()
+        else
         {
-            @Override
-            protected String doInBackground(String... strings)
-            {
-                String result = "";
-                try
-                {
-                    result = Utils.orderImage(imagePreview.getUrlOrderImage(), imageDTOs, imagePreview.getEquipmentId());
-                }
-                catch (IOException e)
-                {
-                    e.printStackTrace();
-                }
-                return result;
-            }
-
-            @Override
-            protected void onPostExecute(String result)
-            {
-                super.onPostExecute(result);
-                if (result.contains("SUCCESS"))
-                {
-                    setResult(RESULT_OK,orderIntent);
-                    finish();
-                }
-            }
-        }.execute();
-
-
+            Toast.makeText(getApplicationContext(), "The internet connection has been interrupted. Please try again.",
+                    Toast.LENGTH_SHORT).show();
+        }
     }
 }

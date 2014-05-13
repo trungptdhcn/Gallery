@@ -17,10 +17,14 @@
 package com.qsoft.components.gallery.utils;
 
 import android.annotation.TargetApi;
+import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.RectF;
+import android.location.Geocoder;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Build.VERSION_CODES;
@@ -30,17 +34,17 @@ import android.util.Log;
 import com.google.gson.Gson;
 import com.qsoft.components.gallery.activity.DISUploadImageActivity_;
 import com.qsoft.components.gallery.common.ConstantImage;
+import com.qsoft.components.gallery.common.LocationDTOInterface;
 import com.qsoft.components.gallery.model.ImageBaseModel;
 import com.qsoft.components.gallery.model.ImageUploadModel;
 import com.qsoft.components.gallery.model.dto.ImageDTO;
 import com.qsoft.components.gallery.model.dto.ImageListDTO;
-import com.qsoft.components.gallery.model.dto.LocationDTO;
+import com.qsoft.components.gallery.model.dto.LocationDTOLib;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
-import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.mime.HttpMultipartMode;
 import org.apache.http.entity.mime.MultipartEntity;
@@ -58,16 +62,17 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 
 /**
  * Class containing some static utility methods.
  */
-public class Utils
+public class GalleryUtils
 {
     public static final int MEDIA_TYPE_IMAGE = 1;
     public static final int MEDIA_TYPE_VIDEO = 2;
 
-    private Utils()
+    private GalleryUtils()
     {
     }
 
@@ -77,7 +82,7 @@ public class Utils
     @TargetApi(VERSION_CODES.HONEYCOMB)
     public static void enableStrictMode()
     {
-        if (Utils.hasGingerbread())
+        if (GalleryUtils.hasGingerbread())
         {
             StrictMode.ThreadPolicy.Builder threadPolicyBuilder =
                     new StrictMode.ThreadPolicy.Builder()
@@ -88,7 +93,7 @@ public class Utils
                             .detectAll()
                             .penaltyLog();
 
-            if (Utils.hasHoneycomb())
+            if (GalleryUtils.hasHoneycomb())
             {
                 threadPolicyBuilder.penaltyFlashScreen();
                 vmPolicyBuilder
@@ -163,7 +168,7 @@ public class Utils
         return sb.toString();
     }
 
-    public static <T extends ImageBaseModel> String multiPart(String url, T imageUpload, Long equipmentId, Long userId, Long equipmentHistoryId) throws IOException
+    public static <T extends ImageBaseModel> String multiPart(String url, T imageUpload, Long equipmentId, Long userId, Long equipmentHistoryId,LocationDTOInterface locationDTOLib) throws IOException
     {
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
@@ -176,12 +181,8 @@ public class Utils
             File file = new File(((ImageUploadModel) imageUpload).getRealUri());
             String imageType = getTypeOfImage(((ImageUploadModel) imageUpload).getRealUri()).toUpperCase();
             String imageName = ConstantImage.IMAGE_NAME;
-            LocationDTO locationDTO = new LocationDTO();
-            locationDTO.setLatitude(BigDecimal.valueOf(0));
-            locationDTO.setLongitude(BigDecimal.valueOf(0));
-            locationDTO.setStreet("Street");
             Gson gson = new Gson();
-            String json = gson.toJson(locationDTO);
+            String json = gson.toJson(locationDTOLib);
             mpEntity = addParamsForUpload(file,imageType,imageName,equipmentId,userId,json,equipmentHistoryId);
 
             httppost.setEntity(mpEntity);
@@ -191,7 +192,7 @@ public class Utils
             if (entity != null)
             {
                 InputStream instream = entity.getContent();
-                result = Utils.convertStreamToString(instream);
+                result = GalleryUtils.convertStreamToString(instream);
                 instream.close();
             }
         }
@@ -207,12 +208,12 @@ public class Utils
 ////            }
 ////            mpEntity.addPart(ConstantImage.EQUIPMENT_ID, new StringBody(equipmentId.toString()));
 ////            mpEntity.addPart(ConstantImage.USER_ID, new StringBody(userId.toString()));
-////            LocationDTO locationDTO = new LocationDTO();
-////            locationDTO.setLatitude(BigDecimal.valueOf(0));
-////            locationDTO.setLongitude(BigDecimal.valueOf(0));
-////            locationDTO.setStreet("Street");
+////            LocationDTOLib locationDTOLib = new LocationDTOLib();
+////            locationDTOLib.setLatitude(BigDecimal.valueOf(0));
+////            locationDTOLib.setLongitude(BigDecimal.valueOf(0));
+////            locationDTOLib.setStreet("Street");
 ////            Gson gson = new Gson();
-////            String json = gson.toJson(locationDTO);
+////            String json = gson.toJson(locationDTOLib);
 ////            mpEntity.addPart(ConstantImage.IMAGE_LOCATION_DTO, new StringBody(json));
 ////        }
 ////        httppost.setEntity(mpEntity);
@@ -223,7 +224,7 @@ public class Utils
 ////        if (entity != null)
 ////        {
 ////            InputStream instream = entity.getContent();
-////            result = Utils.convertStreamToString(instream);
+////            result = GalleryUtils.convertStreamToString(instream);
 ////            instream.close();
 ////        }
 //
@@ -405,5 +406,56 @@ public class Utils
         }
         return inputStream;
     }
+
+    public static boolean hasConnection(Context context)
+    {
+        ConnectivityManager cm = (ConnectivityManager) context.getSystemService(
+                Context.CONNECTIVITY_SERVICE);
+
+        NetworkInfo wifiNetwork = cm.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
+        if (wifiNetwork != null && wifiNetwork.isConnected())
+        {
+            return true;
+        }
+
+        NetworkInfo mobileNetwork = cm.getNetworkInfo(ConnectivityManager.TYPE_MOBILE);
+        if (mobileNetwork != null && mobileNetwork.isConnected())
+        {
+            return true;
+        }
+
+        NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
+        if (activeNetwork != null && activeNetwork.isConnected())
+        {
+            return true;
+        }
+
+        return false;
+    }
+
+    public  static  LocationDTOInterface getLocationDTO(Context context) throws IOException
+    {
+        LocationDTOInterface locationDTOInterface = null;
+        Geocoder geocoder;
+        List<android.location.Address> addresses;
+        geocoder = new Geocoder(context, Locale.getDefault());
+        android.location.Location location = LocationUtil.getCurrentLocationInformation(context);
+        if(location != null)
+        {
+            addresses = geocoder.getFromLocation(location.getLatitude(), location.getLongitude(), 1);
+
+            String address = addresses.get(0).getAddressLine(0);
+            String street1  = addresses.get(0).getAddressLine(1);
+            String street2 = addresses.get(0).getAddressLine(2);
+            String city = addresses.get(0).getAddressLine(3);
+            String country = addresses.get(0).getAddressLine(4);
+
+            locationDTOInterface.setLongitude(BigDecimal.valueOf(location.getLongitude()));
+            locationDTOInterface.setLatitude(BigDecimal.valueOf(location.getLatitude()));
+            locationDTOInterface.setStreet(street1);
+        }
+        return locationDTOInterface;
+    }
+
 
 }

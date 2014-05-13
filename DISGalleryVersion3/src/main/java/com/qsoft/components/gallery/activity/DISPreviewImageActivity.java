@@ -7,9 +7,6 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.*;
-import android.support.v4.view.MotionEventCompat;
-import android.util.Log;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -26,8 +23,8 @@ import com.qsoft.components.gallery.custom_view.EnableDisableViewPager;
 import com.qsoft.components.gallery.model.ImageBaseModel;
 import com.qsoft.components.gallery.model.ImagePreview;
 import com.qsoft.components.gallery.model.ImageSlide;
-import com.qsoft.components.gallery.model.ImageViewModel;
-import com.qsoft.components.gallery.utils.Utils;
+import com.qsoft.components.gallery.model.dto.LocationDTOLib;
+import com.qsoft.components.gallery.utils.GalleryUtils;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
@@ -35,7 +32,6 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
 
 import java.io.*;
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -91,6 +87,14 @@ public class DISPreviewImageActivity extends Activity implements View.OnClickLis
         imagePreviewModel.setUrlUploadImage(imageSlide.getUrlUploadImage());
         imagePreviewModel.setUrlDownloadImage(imageSlide.getUrlDownloadImage());
         imagePreviewModel.setUrlOrderImage(imageSlide.getUrlOrderImage());
+        if (imageSlide.getEquipmentHistoryDTOLib() != null)
+        {
+            imagePreviewModel.setLocationDTOLib(imageSlide.getLocationDTOLib());
+        }
+        if (imageSlide.getEquipmentHistoryDTOLib() != null)
+        {
+            imagePreviewModel.setEquipmentHistoryDTOLib(imageSlide.getEquipmentHistoryDTOLib());
+        }
 
         adapter = new DISSlideShowAdapter(this, imagePreviewModel);
         vpImage.setAdapter(adapter);
@@ -120,7 +124,16 @@ public class DISPreviewImageActivity extends Activity implements View.OnClickLis
             case R.id.dis_preview_image_btTrash:
                 try
                 {
-                    deleteImage();
+                    if (GalleryUtils.hasConnection(getApplicationContext()))
+                    {
+                        deleteImage();
+                    }
+                    else
+                    {
+                        Toast.makeText(getApplicationContext(), "The internet connection has been interrupted. Please try again.",
+                                Toast.LENGTH_SHORT).show();
+                    }
+
                 }
                 catch (IOException e)
                 {
@@ -139,7 +152,7 @@ public class DISPreviewImageActivity extends Activity implements View.OnClickLis
         trashIntent.putExtra(ConstantImage.EVENT_FLAG, ConstantImage.TRASH_IMAGE_FLAG);
         trashIntent.putExtra(ConstantImage.POSITION, vpImage.getCurrentItem());
         DISSlideShowAdapter adapter = (DISSlideShowAdapter) vpImage.getAdapter();
-        List<ImageBaseModel> imageModel = adapter.getModelImage().getImageList();
+        List<ImageBaseModel> imageModel = adapter.getListShowInSlide();
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
         HttpClient httpclient = new DefaultHttpClient();
@@ -151,13 +164,13 @@ public class DISPreviewImageActivity extends Activity implements View.OnClickLis
         if (entity != null)
         {
             InputStream instream = entity.getContent();
-            result = Utils.convertStreamToString(instream);
+            result = GalleryUtils.convertStreamToString(instream);
             instream.close();
         }
         if (result.contains("SUCCESS"))
         {
             trashIntent.putExtra(ConstantImage.EVENT_FLAG, ConstantImage.TRASH_IMAGE_FLAG);
-            trashIntent.putExtra(ConstantImage.EQUIPMENT_ID,equipmentId);
+            trashIntent.putExtra(ConstantImage.EQUIPMENT_ID, equipmentId);
             setResult(RESULT_OK, trashIntent);
             finish();
         }
@@ -186,9 +199,7 @@ public class DISPreviewImageActivity extends Activity implements View.OnClickLis
             if (requestCode == ConstantImage.REQUEST_CODE_ORDER_IMAGE)
             {
                 data.putExtra(ConstantImage.EVENT_FLAG, ConstantImage.ORDER_IMAGE_FLAG);
-
             }
-            data.putExtra(ConstantImage.EQUIPMENT_ID, equipmentId);
             setResult(RESULT_OK, data);
             finish();
         }
@@ -197,62 +208,71 @@ public class DISPreviewImageActivity extends Activity implements View.OnClickLis
     @Click(R.id.dis_preview_image_btDowloadImage)
     public void downloadImage()
     {
-        new AsyncTask<String, String, String>()
+        if (GalleryUtils.hasConnection(getApplicationContext()))
         {
 
-            @Override
-            protected void onPreExecute()
+
+            new AsyncTask<String, String, String>()
             {
-                super.onPreExecute();
-                dialog.show();
-            }
 
-            @Override
-            protected String doInBackground(String... strings)
-            {
-                BitmapFactory.Options bmOptions;
-                bmOptions = new BitmapFactory.Options();
-                bmOptions.inSampleSize = 1;
-                Bitmap bm = Utils.LoadImage(((ImageBaseModel) adapter.getModelImage().getImageList().get(vpImage.getCurrentItem())).getUrl(), bmOptions);
-                OutputStream outStream = null;
-                File outputFile = Utils.getOutputMediaFile(Utils.MEDIA_TYPE_IMAGE);
-                try
+                @Override
+                protected void onPreExecute()
                 {
-                    outStream = new FileOutputStream(outputFile);
-                }
-                catch (FileNotFoundException e1)
-                {
-                    e1.printStackTrace();
+                    super.onPreExecute();
+                    dialog.show();
                 }
 
-                try
+                @Override
+                protected String doInBackground(String... strings)
                 {
-                    bm.compress(Bitmap.CompressFormat.PNG, 100, outStream);
-                    outStream.flush();
-                    outStream.close();
+                    BitmapFactory.Options bmOptions;
+                    bmOptions = new BitmapFactory.Options();
+                    bmOptions.inSampleSize = 1;
+                    Bitmap bm = GalleryUtils.LoadImage(((ImageBaseModel) adapter.getModelImage().getImageList().get(vpImage.getCurrentItem())).getUrl(), bmOptions);
+                    OutputStream outStream = null;
+                    File outputFile = GalleryUtils.getOutputMediaFile(GalleryUtils.MEDIA_TYPE_IMAGE);
+                    try
+                    {
+                        outStream = new FileOutputStream(outputFile);
+                    }
+                    catch (FileNotFoundException e1)
+                    {
+                        e1.printStackTrace();
+                    }
+
+                    try
+                    {
+                        bm.compress(Bitmap.CompressFormat.PNG, 100, outStream);
+                        outStream.flush();
+                        outStream.close();
+                    }
+                    catch (FileNotFoundException e)
+                    {
+                        e.printStackTrace();
+
+                    }
+                    catch (IOException e)
+                    {
+                        e.printStackTrace();
+                    }
+                    sendBroadcast(new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE, Uri.fromFile(outputFile)));
+                    return null;
                 }
-                catch (FileNotFoundException e)
+
+                @Override
+                protected void onPostExecute(String s)
                 {
-                    e.printStackTrace();
-
+                    super.onPostExecute(s);
+                    dialog.dismiss();
                 }
-                catch (IOException e)
-                {
-                    e.printStackTrace();
-                }
-                sendBroadcast(new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE, Uri.fromFile(outputFile)));
-                return null;
-            }
-
-            @Override
-            protected void onPostExecute(String s)
-            {
-                super.onPostExecute(s);
-                dialog.dismiss();
-            }
-        }.execute();
-        Toast.makeText(this, "Saved image", Toast.LENGTH_LONG).show();
-
+            }.execute();
+            Toast.makeText(this, "Saved image", Toast.LENGTH_LONG).show();
+        }
+        else
+        {
+            Toast.makeText(getApplicationContext(), "The internet connection has been interrupted. Please try again.",
+                    Toast.LENGTH_SHORT).show();
+        }
     }
 
 }

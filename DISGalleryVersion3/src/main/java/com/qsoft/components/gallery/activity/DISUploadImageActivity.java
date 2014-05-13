@@ -3,16 +3,17 @@ package com.qsoft.components.gallery.activity;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.*;
-import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewTreeObserver;
 import android.widget.Button;
 import android.widget.GridView;
+import android.widget.Toast;
 import com.google.gson.Gson;
 import com.googlecode.androidannotations.annotations.AfterViews;
 import com.googlecode.androidannotations.annotations.EActivity;
@@ -21,18 +22,14 @@ import com.nostra13.universalimageloader.core.assist.PauseOnScrollListener;
 import com.qsoft.components.gallery.R;
 import com.qsoft.components.gallery.adapter.DISUploadImageAdapter;
 import com.qsoft.components.gallery.common.ConstantImage;
+import com.qsoft.components.gallery.common.LocationDTOInterface;
 import com.qsoft.components.gallery.model.*;
-import com.qsoft.components.gallery.model.dto.ImageDTO;
-import com.qsoft.components.gallery.model.dto.ImageListDTO;
-import com.qsoft.components.gallery.utils.Utils;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
+import com.qsoft.components.gallery.model.dto.EquipmentHistoryDTOLib;
+import com.qsoft.components.gallery.model.dto.LocationDTOLib;
+import com.qsoft.components.gallery.model.dto.ResponseDTO;
+import com.qsoft.components.gallery.utils.GalleryUtils;
 
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -61,6 +58,7 @@ public class DISUploadImageActivity extends Activity implements View.OnClickList
     ImageUpload imageUpload;
     AsyncTask asyncTaskTakePhoto;
     AsyncTask asyncTaskUpload;
+    LocationDTOInterface locationDTOInterface;
 
 
     @AfterViews
@@ -69,13 +67,25 @@ public class DISUploadImageActivity extends Activity implements View.OnClickList
         imagePreviewModel = getIntent().getParcelableExtra(ConstantImage.PREVIEW_MODEL_IMAGE);
         mImageThumbSize = getResources().getDimensionPixelSize(R.dimen.image_thumbnail_size);
         mImageThumbSpacing = getResources().getDimensionPixelSize(R.dimen.image_thumbnail_spacing);
-
         imageUpload = new ImageUpload();
+        try
+        {
+            locationDTOInterface = GalleryUtils.getLocationDTO(getApplicationContext());
+        }
+        catch (IOException e)
+        {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+
         imageUpload.setUserId(imagePreviewModel.getUserId());
         imageUpload.setEquipmentId(imagePreviewModel.getEquipmentId());
         imageUpload.setPosition(imagePreviewModel.getPosition());
         imageUpload.setUrlUploadImage(imagePreviewModel.getUrlUploadImage());
-
+        imageUpload.setLocationDTOLib(imagePreviewModel.getLocationDTOLib());
+        if (imagePreviewModel.getEquipmentHistoryDTOLib() != null)
+        {
+            imageUpload.setEquipmentHistoryDTOLib(imagePreviewModel.getEquipmentHistoryDTOLib());
+        }
         imageAdapter = new DISUploadImageAdapter(this, imageUpload);
         imageAdapter.initializeThumbnail(imageAdapter.getListIdRealImage());
         gridView.setAdapter(imageAdapter);
@@ -97,7 +107,7 @@ public class DISUploadImageActivity extends Activity implements View.OnClickList
                                         (gridView.getWidth() / numColumns) - mImageThumbSpacing;
                                 imageAdapter.setNumColumns(numColumns);
                                 imageAdapter.setItemHeight(columnWidth);
-                                if (Utils.hasJellyBean())
+                                if (GalleryUtils.hasJellyBean())
                                 {
                                     gridView.getViewTreeObserver()
                                             .removeOnGlobalLayoutListener(this);
@@ -119,6 +129,7 @@ public class DISUploadImageActivity extends Activity implements View.OnClickList
 
 
         btUpload.setOnClickListener(this);
+        btClose.setOnClickListener(this);
     }
 
     @Override
@@ -126,12 +137,41 @@ public class DISUploadImageActivity extends Activity implements View.OnClickList
     {
         switch (view.getId())
         {
-            case R.id.dis_upload_image_btClose:
-                break;
+//            case R.id.dis_upload_image_btClose:
+//                finish();
+//                break;
             case R.id.dis_upload_image_btUpload:
                 try
                 {
-                    uploadImage(imagePreviewModel.getUrlUploadImage(), imagePreviewModel.getEquipmentId(), imagePreviewModel.getUserId());
+                    if (GalleryUtils.hasConnection(getApplicationContext()))
+                    {
+                        try
+                        {
+                            locationDTOInterface = GalleryUtils.getLocationDTO(getApplicationContext());
+                        }
+                        catch (IOException e)
+                        {
+                            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                        }
+
+                        if (locationDTOInterface != null && locationDTOInterface.getLatitude() != null
+                                && locationDTOInterface.getLongitude() != null)
+                        {
+                            imagePreviewModel.setLocationDTO(locationDTOInterface);
+                            uploadImage(imagePreviewModel.getUrlUploadImage(), imagePreviewModel.getEquipmentId(), imagePreviewModel.getUserId());
+
+                        }
+                        else
+                        {
+                            Toast.makeText(this, "Can't load location", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                    else
+                    {
+                        Toast.makeText(getApplicationContext(), "The internet connection has been interrupted. Please try again.",
+                                Toast.LENGTH_SHORT).show();
+                    }
+
                 }
                 catch (IOException e)
                 {
@@ -161,6 +201,7 @@ public class DISUploadImageActivity extends Activity implements View.OnClickList
         dialog.setMessage("Uploading..");
         dialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
         dialog.setMax(imageUploads.size());
+        dialog.setCancelable(false);
         dialog.setButton(DialogInterface.BUTTON_NEGATIVE, "Cancel", new DialogInterface.OnClickListener()
         {
             @Override
@@ -170,7 +211,7 @@ public class DISUploadImageActivity extends Activity implements View.OnClickList
                 dialog.dismiss();
             }
         });
-        asyncTaskUpload = new AsyncTask<String, String, String>()
+        asyncTaskUpload = new AsyncTask<EquipmentHistoryDTOLib, Integer, EquipmentHistoryDTOLib>()
         {
 
             @Override
@@ -181,14 +222,14 @@ public class DISUploadImageActivity extends Activity implements View.OnClickList
             }
 
             @Override
-            protected String doInBackground(String... strings)
+            protected EquipmentHistoryDTOLib doInBackground(EquipmentHistoryDTOLib... equipmentHistoryDTOLibs)
             {
                 String result = null;
                 long total = 0;
+                EquipmentHistoryDTOLib equipmentHistoryDTOLib = null;
                 try
                 {
-                    result = Utils.multiPart(urlUpload, imageUploads.get(0), equipmentId, userId, null);
-                    total +=1;
+                    result = GalleryUtils.multiPart(urlUpload, imageUploads.get(0), equipmentId, userId, null, (LocationDTOInterface) imagePreviewModel.getLocationDTO());
                 }
                 catch (IOException e)
                 {
@@ -196,11 +237,23 @@ public class DISUploadImageActivity extends Activity implements View.OnClickList
                 }
                 if (result.contains("SUCCESS"))
                 {
+                    total += 1;
+                    dialog.incrementProgressBy(1);
+                    publishProgress((int) (total));
+                    ResponseDTO responseDTO = new Gson().fromJson(result, ResponseDTO.class);
+                    equipmentHistoryDTOLib = responseDTO.getResultDTO().getEquipmentHistoryDTOLib();
+                    Long equipmentHistoryId = equipmentHistoryDTOLib.getWebId();
                     for (int i = 1; i < imageUploads.size(); i++)
                     {
                         try
                         {
-                            Utils.multiPart(urlUpload, imageUploads.get(i), equipmentId, userId, null);
+                            String stringResult = GalleryUtils.multiPart(urlUpload, imageUploads.get(i),
+                                    equipmentId, userId, equipmentHistoryId, (LocationDTOInterface) imagePreviewModel.getLocationDTO());
+                            if (stringResult.contains("SUCCESS"))
+                            {
+                                total += 1;
+                                dialog.incrementProgressBy(1);
+                            }
                         }
                         catch (IOException e)
                         {
@@ -208,31 +261,27 @@ public class DISUploadImageActivity extends Activity implements View.OnClickList
                         }
                     }
                 }
-
-                return result;
+                return equipmentHistoryDTOLib;
             }
 
             @Override
-            protected void onPostExecute(String result)
+            protected void onProgressUpdate(Integer... progress)
             {
-                super.onPostExecute(result);
-                if (result.contains("SUCCESS"))
-                {
-                    List<ImageViewModel> imageViewModels = new ArrayList<ImageViewModel>();
-                    for (ImageUploadModel imageUploadModel : imageUploads)
-                    {
-                        ImageViewModel imageViewModel = new ImageViewModel(imageUploadModel.getUrl(), false);
-                        imageViewModel.setEquipmentID(equipmentId);
-                        imageViewModel.setIndex(imageUploadModel.getIndex());
-                        imageViewModel.setId(imageUploadModel.getId());
-                        imageViewModels.add(imageViewModel);
-                    }
-                    uploadIntent.putParcelableArrayListExtra(ConstantImage.RESULT_LIST, (ArrayList<? extends Parcelable>) imageViewModels);
-                    uploadIntent.putExtra(ConstantImage.EVENT_FLAG, ConstantImage.UPLOAD_IMAGE_FLAG);
-                    setResult(RESULT_OK, uploadIntent);
-                    dialog.dismiss();
-                    finish();
-                }
+                super.onProgressUpdate(progress);
+                dialog.setProgress(progress[0]);
+            }
+
+            @Override
+            protected void onPostExecute(EquipmentHistoryDTOLib equipmentHistoryDTOLib)
+            {
+                super.onPostExecute(equipmentHistoryDTOLib);
+                uploadIntent.putExtra(ConstantImage.EVENT_FLAG, ConstantImage.UPLOAD_IMAGE_FLAG);
+                uploadIntent.putExtra(ConstantImage.EQUIPMENT_ID, equipmentId);
+                uploadIntent.putExtra(ConstantImage.EQUIPMENT_HISTORY, equipmentHistoryDTOLib);
+                uploadIntent.putExtra(ConstantImage.IMAGE_LOCATION_DTO, (Parcelable) imagePreviewModel.getLocationDTO());
+                setResult(RESULT_OK, uploadIntent);
+                dialog.dismiss();
+                finish();
             }
         }.execute();
     }
@@ -245,83 +294,104 @@ public class DISUploadImageActivity extends Activity implements View.OnClickList
         {
             if (requestCode == ConstantImage.REQUEST_CODE_CAMERA)
             {
-                fileUri = imageAdapter.getFileUri();
-                Log.d("dfs", fileUri.toString());
-                final ImageUploadModel imageUploadModel = new ImageUploadModel();
-                imageUploadModel.setRealUri(fileUri.toString().substring(7, fileUri.toString().length()));
-                imageUploadModel.setUrl(fileUri.toString());
-                imageUploadModel.setSelection(true);
-                imageUploadModel.setShown(false);
-                imageUploadModel.setEquipmentID(imageUpload.getEquipmentId());
-                dialog = new ProgressDialog(this);
-                dialog.setMessage("Uploading..");
-                dialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
-                dialog.setMax(2);
-                dialog.setCancelable(false);
-                dialog.setButton(DialogInterface.BUTTON_NEGATIVE, "Cancel", new DialogInterface.OnClickListener()
+                if (GalleryUtils.hasConnection(getApplicationContext()))
                 {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which)
+                    if (locationDTOInterface != null && locationDTOInterface.getLatitude() != null
+                            && locationDTOInterface.getLongitude() != null)
                     {
-                        asyncTaskTakePhoto.cancel(true);
-                        dialog.dismiss();
+                        fileUri = imageAdapter.getFileUri();
+                        Log.d("dfs", fileUri.toString());
+                        final ImageUploadModel imageUploadModel = new ImageUploadModel();
+                        imageUploadModel.setRealUri(fileUri.toString().substring(7, fileUri.toString().length()));
+                        imageUploadModel.setUrl(fileUri.toString());
+                        imageUploadModel.setSelection(true);
+                        imageUploadModel.setShown(false);
+                        imageUploadModel.setEquipmentID(imageUpload.getEquipmentId());
+                        dialog = new ProgressDialog(this);
+                        dialog.setMessage("Uploading..");
+                        dialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+                        dialog.setMax(1);
+                        dialog.setCancelable(false);
+                        dialog.setButton(DialogInterface.BUTTON_NEGATIVE, "Cancel", new DialogInterface.OnClickListener()
+                        {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which)
+                            {
+                                asyncTaskTakePhoto.cancel(true);
+                                dialog.dismiss();
+                            }
+                        });
+                        asyncTaskTakePhoto = new AsyncTask<EquipmentHistoryDTOLib, Integer, EquipmentHistoryDTOLib>()
+                        {
+                            @Override
+                            protected void onPreExecute()
+                            {
+                                super.onPreExecute();
+                                dialog.show();
+
+                            }
+
+                            @Override
+                            protected EquipmentHistoryDTOLib doInBackground(EquipmentHistoryDTOLib... equipmentHistoryDTOLibs)
+                            {
+                                String result = null;
+                                EquipmentHistoryDTOLib equipmentHistoryDTOLib = null;
+                                long total = 0;
+                                try
+                                {
+                                    result = GalleryUtils.multiPart(imagePreviewModel.getUrlUploadImage(), imageUploadModel, imagePreviewModel.getEquipmentId(), imagePreviewModel.getUserId(), null, (LocationDTOInterface) imagePreviewModel.getLocationDTO());
+                                }
+                                catch (IOException e)
+                                {
+                                    e.printStackTrace();
+                                }
+                                if (result.contains("SUCCESS"))
+                                {
+                                    ResponseDTO responseDTO = new Gson().fromJson(result, ResponseDTO.class);
+                                    equipmentHistoryDTOLib = responseDTO.getResultDTO().getEquipmentHistoryDTOLib();
+                                    total += 1;
+                                    publishProgress((int) total);
+
+                                }
+                                return equipmentHistoryDTOLib;
+
+                            }
+
+                            @Override
+                            protected void onProgressUpdate(Integer... progress)
+                            {
+                                super.onProgressUpdate(progress);
+                                dialog.setProgress(progress[0]);
+                            }
+
+                            @Override
+                            protected void onPostExecute(EquipmentHistoryDTOLib equipmentHistoryDTOLibs)
+                            {
+                                super.onPostExecute(equipmentHistoryDTOLibs);
+                                if (equipmentHistoryDTOLibs != null)
+                                {
+                                    Intent takePhotoIntent = new Intent();
+                                    takePhotoIntent.putExtra(ConstantImage.EVENT_FLAG, ConstantImage.TAKE_PHOTO_FLAG);
+                                    takePhotoIntent.putExtra(ConstantImage.EQUIPMENT_ID, imagePreviewModel.equipmentId);
+                                    takePhotoIntent.putExtra(ConstantImage.EQUIPMENT_HISTORY, equipmentHistoryDTOLibs);
+                                    takePhotoIntent.putExtra(ConstantImage.IMAGE_LOCATION_DTO, imagePreviewModel.getLocationDTOLib());
+                                    setResult(RESULT_OK, takePhotoIntent);
+                                    dialog.dismiss();
+                                    finish();
+                                }
+                            }
+                        }.execute();
                     }
-                });
-                asyncTaskTakePhoto = new AsyncTask<String, Integer, String>()
+                    else
+                    {
+                        Toast.makeText(this, "Can't load location", Toast.LENGTH_SHORT).show();
+                    }
+                }
+                else
                 {
-                    @Override
-                    protected void onPreExecute()
-                    {
-                        super.onPreExecute();
-                        dialog.show();
-
-                    }
-
-                    @Override
-                    protected String doInBackground(String... strings)
-                    {
-                        String result = null;
-                        long total = 0;
-                        try
-                        {
-                            result = Utils.multiPart(imagePreviewModel.getUrlUploadImage(), imageUploadModel, imagePreviewModel.getEquipmentId(), imagePreviewModel.getUserId(), null);
-                        }
-                        catch (IOException e)
-                        {
-                            e.printStackTrace();
-                        }
-                        if (result.contains("SUCCESS"))
-                        {
-                            total += 1;
-                            publishProgress((int) total);
-                            return result;
-                        }
-                        return null;
-
-                    }
-
-                    @Override
-                    protected void onProgressUpdate(Integer... progress)
-                    {
-                        super.onProgressUpdate(progress);
-                        dialog.setProgress(progress[0]);
-                    }
-
-                    @Override
-                    protected void onPostExecute(String result)
-                    {
-                        super.onPostExecute(result);
-                        if (result != null)
-                        {
-                            Intent takePhotoIntent = new Intent();
-                            takePhotoIntent.putExtra(ConstantImage.EVENT_FLAG, ConstantImage.TAKE_PHOTO_FLAG);
-                            setResult(RESULT_OK, takePhotoIntent);
-                            dialog.dismiss();
-                            finish();
-                        }
-                    }
-                }.execute();
-
+                    Toast.makeText(getApplicationContext(), "The internet connection has been interrupted. Please try again.",
+                            Toast.LENGTH_SHORT).show();
+                }
             }
         }
     }
@@ -343,5 +413,4 @@ public class DISUploadImageActivity extends Activity implements View.OnClickList
         super.onRestoreInstanceState(savedInstanceState);
         fileUri = savedInstanceState.getParcelable("file_uri");
     }
-
 }

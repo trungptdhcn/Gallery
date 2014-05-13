@@ -1,7 +1,14 @@
 package com.qsoft.components.gallery.model.dto;
 
+import android.os.Bundle;
+import android.os.Message;
+import android.os.Parcel;
+import android.os.Parcelable;
 import com.google.gson.annotations.SerializedName;
+import com.qsoft.components.gallery.common.ConstantImage;
+import com.qsoft.components.gallery.model.ImageBaseModel;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -9,7 +16,7 @@ import java.util.List;
  * Date: 5/9/14
  * Time: 3:24 PM
  */
-public class EquipmentHistoryDTO
+public class EquipmentHistoryDTOLib implements Parcelable
 {
 
     @SerializedName("userName")
@@ -20,8 +27,6 @@ public class EquipmentHistoryDTO
     String userImageId;
     @SerializedName("time")
     String time;
-    @SerializedName("locationDTO")
-    LocationDTO locationDTO;
     @SerializedName("listEquipmentImageId")
     List<String> listEquipmentImageId;
     @SerializedName("internalId")
@@ -56,6 +61,8 @@ public class EquipmentHistoryDTO
     String outSiteServicePrice;
     @SerializedName("outSiteServiceProvider")
     String outSiteServiceProvider;
+    @SerializedName("webId")
+    Long webId;
 
     public Long getContactId()
     {
@@ -137,15 +144,6 @@ public class EquipmentHistoryDTO
         this.listEquipmentImageId = listEquipmentImageId;
     }
 
-    public LocationDTO getLocationDTO()
-    {
-        return locationDTO;
-    }
-
-    public void setLocationDTO(LocationDTO locationDTO)
-    {
-        this.locationDTO = locationDTO;
-    }
 
     public String getNote()
     {
@@ -256,4 +254,97 @@ public class EquipmentHistoryDTO
     {
         this.userName = userName;
     }
+
+    public Long getWebId()
+    {
+        return webId;
+    }
+
+    public void setWebId(Long webId)
+    {
+        this.webId = webId;
+    }
+
+    @Override
+    public int describeContents()
+    {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel parcel, int i)
+    {
+        parcel.writeString(userName);
+        if (userId != null)
+        {
+            parcel.writeLong(userId);
+        }
+        parcel.writeString(userImageId);
+        parcel.writeString(time);
+        parcel.writeStringList(listEquipmentImageId);
+        parcel.writeString(internalId);
+        parcel.writeString(hourMeter);
+        parcel.writeString(fuelLevel);
+        parcel.writeString(historyType);
+        parcel.writeString(estimatedReturn);
+        parcel.writeString(note);
+        if (contactId != null)
+        {
+            parcel.writeLong(contactId);
+        }
+        parcel.writeString(signatureFileId);
+        parcel.writeString(pdfFileId);
+        if (equipmentId != null)
+        {
+            parcel.writeLong(equipmentId);
+        }
+        parcel.writeString(outSiteServiceDocumentNumber);
+        parcel.writeString(outSiteServiceDate);
+        parcel.writeString(outSiteServicePrice);
+        parcel.writeString(outSiteServiceProvider);
+        if (equipmentId != null)
+        {
+            parcel.writeLong(webId);
+        }
+    }
+
+    public EquipmentHistoryDTOLib(Parcel in)
+    {
+        userName = in.readString();
+        userId = in.readLong();
+        userImageId = in.readString();
+        time = in.readString();
+        if(listEquipmentImageId != null)
+        {
+            in.readStringList(listEquipmentImageId);
+        }
+        internalId = in.readString();
+        hourMeter = in.readString();
+        fuelLevel = in.readString();
+        historyType = in.readString();
+        estimatedReturn = in.readString();
+        note = in.readString();
+        contactId = in.readLong();
+        signatureFileId = in.readString();
+        equipmentId = in.readLong();
+        outSiteServiceDocumentNumber = in.readString();
+        outSiteServiceDate = in.readString();
+        outSiteServicePrice = in.readString();
+        outSiteServiceProvider = in.readString();
+        webId = in.readLong();
+    }
+
+    public static final Parcelable.Creator<EquipmentHistoryDTOLib> CREATOR = new Parcelable.Creator<EquipmentHistoryDTOLib>()
+    {
+        public EquipmentHistoryDTOLib createFromParcel(Parcel in)
+        {
+            return new EquipmentHistoryDTOLib(in);
+        }
+
+        public EquipmentHistoryDTOLib[] newArray(int size)
+        {
+            return new EquipmentHistoryDTOLib[size];
+        }
+    };
+
 }
